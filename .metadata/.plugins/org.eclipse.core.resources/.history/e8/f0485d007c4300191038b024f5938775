@@ -1,0 +1,593 @@
+/*                  Inductance Measurement 3.4
+*This version use a fix number of samples to be taken during the sampling
+period. The number of samples is define at the beginning, during the
+"Time_Gain_set" routine, which configurates the T_ramp and the amp's gain.
+In this way, the length of the arrays will remain constant in a same
+measurement.
+
+This version includes the sliding window method.
+
+1. Configure the ports of the board (included in the main code)
+2. Call to resistance measurement for V_res knowledge.
+3. Set sampling time and amp's gain
+4. Set the measurement algorith
+*/
+
+#include "bsp.h"
+
+
+// Resistance measurement
+//double extern Resistance;
+//uint32_t extern MAX_RUNS;
+
+// Sampling time and amp's Gain configuration
+//uint32_t T_ramp = 0u;
+//int extern Gain_L, Gain_R;
+int  Gain_L, Gain_R;
+
+// Measurement algorith
+#define SYS_CLOCK_HZ 80000000U
+#define FREC_RESAMPLING 5U
+#define MAX_SAMPLES 1050U                        //RECORDAR MODIFICAR CUANDO HAYAMOS LOGRADO HABILITAR OTRO BLOQUE DE RAM
+#define neighbour 150
+#define Fs 500000U
+#define SCALE_FACTOR_L 1000000u // for microHy.
+#define SCALE_FACTOR_I 100u
+#define SIGNIFICANT_FIGURES 10u
+#define TMEAS 100 // Measurement period
+#define ARRAY_LENGTH 75 // Measured inductance data length
+#define SLIDING_WINDOW_STEP 10
+
+uint32_t samp_L[MAX_SAMPLES] = {0};
+uint32_t samp_R[MAX_SAMPLES] = {0};
+int NRO_SAMPLES = 0;
+int counter = 1;
+const float K_L = 1.873251748e-3;
+const float K_R = 1.874890e-2;
+const float pi = 3.1415926;
+
+//uint32_t extern runs = 0U;
+
+//bool stay = true;
+bool stay = false;
+
+float V_L[MAX_SAMPLES];
+float I_R[MAX_SAMPLES];
+
+float ws_V;
+float ws_I;
+
+//float V_L_filt[MAX_SAMPLES];
+//float I_R_filt[MAX_SAMPLES];
+
+uint32_t runs = 0;
+
+//float extern V_prom[MAX_SAMPLES];
+//float extern I_prom[MAX_SAMPLES];
+
+float  V_prom[MAX_SAMPLES];
+float  I_prom[MAX_SAMPLES];
+
+//float slopes[(int) floor(MAX_SAMPLES / neighbour) ]; //
+float slopes[150]; // (int) floor(MAX_SAMPLES / neighbour) = 2
+//const float T = 1e-6;
+const float T = 2e-6;
+
+float V_i[150];// (int) floor(MAX_SAMPLES / neighbour)
+
+typedef struct
+{
+    float  Ind[150];
+    float  Current[150];
+} L_i_pair;
+
+//extern L_i_pair L_i;
+L_i_pair L_i;
+
+
+//char data_to_pc[2] = {0};
+//volatile uint32_t extern sw1state;
+//uint32_t extern sw1press;
+//uint32_t extern switch1;
+volatile uint32_t  sw1state;
+uint32_t  sw1press;
+uint32_t  switch1;
+
+
+uint32_t aux;
+uint32_t count = 0;
+
+
+int32_t offset[2];
+
+uint32_t send_index=0u;
+uint32_t array_index=0u;
+static char bufsend[ARRAY_LENGTH*2]={};
+static char bufsend_i[ARRAY_LENGTH*2]={};
+uint32_t inductance[ARRAY_LENGTH];
+uint32_t current [ARRAY_LENGTH];
+char command = 0;
+
+
+void main (void)
+{
+    // 1. The port configuration was made in the main code.
+    Port_config();
+
+
+    UARTFIFOLevelSet(UART0_BASE, ARRAY_LENGTH*2+2, 1); // Set FIFO lengths
+
+    // Empty the receive FIFO
+    while(UARTCharsAvail(UART0_BASE)){
+        UARTCharGet(UART0_BASE);
+    }
+
+    while(!UARTSpaceAvail(UART0_BASE)){
+    }
+
+
+ while(1){
+  if (stay == true){
+
+/*
+    // 1. The port configuration was made in the main code.
+    Port_config();
+*/
+    //Indicate the Mode has iniciated(blue) and the configuration is in process(red).
+    GPIOPinWrite(GPIO_PORTF_AHB_BASE, LED_RED | LED_BLUE | LED_GREEN, LED_BLUE | LED_RED);
+
+
+
+                        /////////////////////////////////////////
+                        //              Resistance             //
+                        //              Measurement            //
+                        /////////////////////////////////////////
+    /* 2. First, it's necessary to call to the resistance measurement
+    routine, in order to define the value of V_res in the equation:
+        V_tot = V_ind + V_res
+    In this way, it'll be possible to associate a more accurately value
+    of V_ind to the following calculations*/
+    /*
+        if ( Resistance != 0){
+            MAX_RUNS = 100u;
+            Res_Med();
+        }
+
+    */
+
+    /* After the routine is complete, an aproximation to the DC power losses
+    resistance is known. So, it can be used to adjust the calculations below*/
+
+                        /////////////////////////////////////////
+                        //               Sampling Time         //
+                        //              and  Amp's Gain        //
+                        //               configuration         //
+                        /////////////////////////////////////////
+    /* 3. Second, the sampling Time must be define in concordation to the
+    greatest current that's supposed to flow through the inductor.
+     At the same time, it's necessary to set the amp's configuration in
+     order to maximize the dynamic range over the ADC, and never saturate
+     its input*/
+
+    // 3.1. Initialize the amp's gains
+        GPIOPinWrite(GPIOB_BASE, A1_res | A0_res, A1_res | A0_res); //G=10
+        GPIOPinWrite(GPIOB_BASE, A1_ind | A0_ind, 0); //G=10
+        Gain_L = 1;
+        Gain_R = 10;
+    // 3.2 Call the routine to adjust the parameters.
+        /*
+        Time_Gain_set();
+        */
+        NRO_SAMPLES = 1050;
+
+                        /////////////////////////////////////////
+                        //              Measurement            //
+                        //                Algorith             //
+                        /////////////////////////////////////////
+
+    // 4. SysTick Configuration
+    // Configure 100ms SysTick interruption
+    SysTick_Init(SYS_CLOCK_HZ/FREC_RESAMPLING - 1U);
+    //Define the SysTick_Handler
+    SysTickIntRegister(*(SysTick_Handler_Ind));
+    //Enable the Systick
+    SysTickEnable();
+
+    //Enable the Systick's interruptions
+    SysTickIntEnable();
+
+    //Indicate the configuration is over.
+    GPIOPinWrite(GPIO_PORTF_AHB_BASE, LED_RED | LED_BLUE | LED_GREEN, LED_BLUE);
+
+    // Read any residual data from the SSI RX FIFO.
+    while(SSIDataGetNonBlocking(SSI0_BASE, &samp_L[0]))
+    {
+    }
+    while(SSIDataGetNonBlocking(SSI1_BASE, &samp_R[0]))
+    {
+    }
+/*
+    UARTFIFOLevelSet(UART0_BASE, ARRAY_LENGTH*2+2, 1); // Set FIFO lengths
+
+    // Empty the receive FIFO
+    while(UARTCharsAvail(UART0_BASE)){
+        UARTCharGet(UART0_BASE);
+    }
+
+    while(!UARTSpaceAvail(UART0_BASE)){
+    }
+*/
+    //Read turn off tension --> offset
+    for ( int i = 0; i<10 ; i++ ){
+            // Dummy data for tx FIFO, to trigger the CS and CLK.
+            SSIDataPut(SSI0_BASE, 0);
+            // Get value from RX FIFO
+            SSIDataGet(SSI0_BASE, &offset[0]);
+            SSIDataGet(SSI1_BASE, &offset[1]);
+    }
+
+    if ( offset[0] > 32768){
+        offset[0] -=65536;
+    }
+    if ( offset[1] > 32768){
+        offset[1] -=65536;
+    }
+
+    while (stay) {
+    //The data must only be processed ones, and after a sampling period
+    if ( counter == 0 ) {
+
+        counter = 1; // Ones the data processing has start, set counter different to "0"
+
+            /////////////////// Data Processing /////////////////////////
+            //6.1 Convert data from uint32 to float
+
+
+            /*
+                                     4.096          1071.5                    K_L
+                V_L = Data_16bits x -------- x ------------- = Data_16bits x -----
+                                     2^15       Gain . 71.5                   Gain
+                                     4.096          85.3                            K_R
+                I_R = Data_16bits x -------- x ------------------ = Data_16bits x -----
+                                     2^15       Gain . 12.1 . Rs                   Gain
+            */
+
+            for (int j = 0; j < NRO_SAMPLES; j++){
+
+                V_L[j] = (float) (2)*(K_L/Gain_L) * (samp_L[j] - offset[0]);
+                I_R[j] = (float) (K_R/Gain_R) * (samp_R[j] - offset[1]);
+
+            }//end for u32-->float
+
+
+            //6.1.2 Extra processing
+
+            for (int j = 0 ; j<10 ; j++ ){
+                //this condition means the data is meaningless
+                if (I_R[j] > 1){
+                //    I_R[j] = 0.0; //set the value corrupted empty
+                    for (int k = j ; k<10; k++){
+                       // if ( (I_R[j] = 0.0) && (I_R[k] < 1) ){
+                        if ( (I_R[j] > 1) && (I_R[k] < 1) ){
+                            I_R[j] = (float) (j * I_R[k])/k ;
+                        }
+                    }//end for
+                }//end if
+
+            }// end for
+
+            for (int j = 50 ; j<100 ; j++){
+                V_L[2*j-100] = V_L[j];
+                V_L[2*j-99] = V_L[j];
+            }
+
+            //6.2 Data filtering
+            //Define the poles frequencies.
+            //float ws_V = 2 * pi * 0.01  * (1/T_ramp);
+            //float ws_I = 2 * pi * 0.001 * (1/T_ramp);
+            //To reduce the number of variables, As T_ramp = NRO_SAMPLES / Fs.
+            //float ws_V;
+            ws_V = 2 * pi * 1000  * (float) (Fs/NRO_SAMPLES);
+            //float ws_I;
+            ws_I = 2 * pi * 100 * (float) (Fs/NRO_SAMPLES);
+
+            //float V_L_filt[NRO_SAMPLES];
+            //float I_R_filt[NRO_SAMPLES];
+
+            //float T = (float) T_ramp/i; //Refers to sampling time --> instead of T is better to use Fs
+
+            //Call to the routine to filt the signals
+
+            //LPF_single_pole( &V_L, ws_V, Fs, NRO_SAMPLES);
+            //LPF_single_pole( &I_R, ws_I, Fs, NRO_SAMPLES);
+
+            //6.3 Data averanged
+            //Averange the new data with the one sampled in other runs
+
+            runs = 1u;
+
+            for (int j = 0; j <= NRO_SAMPLES; j++){
+
+                V_prom[j] = (float) ( ( runs * V_prom[j] + V_L[j] ) / ( runs + 1U ) );
+                I_prom[j] = (float) ( ( runs * I_prom[j] + I_R[j] ) / ( runs + 1U ) );
+
+            }//end for
+
+            if (runs < 0xFFFFFFFEU) {
+                ++runs;
+            }
+
+            for (int j = 100; j < (700); j++){
+                if (V_prom[j] < (V_prom[j-1]*0.8)|| (V_prom[j] > (V_prom[j-1]*1.2)) ){
+                    V_prom[j] = V_prom[j-1];
+                }
+                if ( (I_prom[j] < (I_prom[j-1]*0.8)) || (I_prom[j] > (I_prom[j-1]*1.2)) ){
+                I_prom[j] = I_prom[j-1];
+                }
+            }//end for
+
+            aux = SysTickValueGet();
+
+            //6.4 least_squares
+            //Calculate the number of intervals for local processing
+            int intervals = (int) ( floor( (NRO_SAMPLES-neighbour) / SLIDING_WINDOW_STEP ));
+
+            //float slopes[intervals];
+            uint32_t sp_aux = 0U;
+            for (int j = 0 ; j < (intervals) ; j++){
+                slopes[j] = least_square( &I_prom[sp_aux], neighbour, T);
+                sp_aux += SLIDING_WINDOW_STEP;
+                //sp_aux += neighbour;
+            }//end for
+
+
+
+            //6.5 Local Averange
+            // Local averangement is use for:
+
+                // a. To calculate the averange current in each interval
+                    // 1. Calculate the local averange current
+                    Local_Average( &L_i.Current, &I_prom, neighbour, intervals, SLIDING_WINDOW_STEP);
+
+                // b. To calculate and correct the averanged value of tension
+                // over the inductor in each interval.
+                    //float V_i[intervals];
+
+                    //Calculate the averange tension
+                    Local_Average( &V_i, &V_prom, neighbour, intervals, SLIDING_WINDOW_STEP);
+
+                    /*
+                    //Correct the value of tension
+                    for (int j = 0 ; j < intervals ; j++){
+
+                        V_i[j] -= ( L_i.Current[j] * Resistance )
+
+                    }//end for
+                    */
+            //6.6 Calculation of Inductance
+
+                for (int j = 0 ; j < intervals ; j++){
+                    L_i.Ind[j] = (float) ( V_i[j] / slopes[j] );
+                }//end for
+
+
+                aux = SysTickValueGet();
+
+            // 5.5 Scale modification for communication with pc
+
+                for (int i = 0; i < ARRAY_LENGTH ; i++){
+                    inductance[i] = (uint32_t)((int) (L_i.Ind[i] * SCALE_FACTOR_L * SIGNIFICANT_FIGURES));
+                    current[i] = (uint32_t)((int) (L_i.Current[i] * SCALE_FACTOR_I));
+                }
+
+            /////////////////////// GUI ////////////////////////////////
+
+
+                send_index = 0u;
+
+                for (array_index = 0; array_index < ARRAY_LENGTH; ++array_index) {
+                    bufsend[send_index] = (char )(0x00FF & inductance[array_index]);
+                    bufsend[send_index+1] = (char )(0x00FF & (inductance[array_index]>>8));
+                    bufsend_i[send_index] = (char )(0x00FF & current[array_index]);
+                    bufsend_i[send_index+1] = (char )(0x00FF & (current[array_index]>>8));
+                    send_index += 2;
+                }
+
+/*
+                if (UARTCharsAvail(UART0_BASE)) {
+                   if(UARTCharGet(UART0_BASE) == 's') {
+                   send_index = 0u;
+                  while (send_index < 2*ARRAY_LENGTH) {
+                       if (UARTCharPutNonBlocking(UART0_BASE,bufsend[send_index])){
+                           send_index++;
+                       }
+                   }
+                   send_index = 0u;
+                  while (send_index < 2*ARRAY_LENGTH) {
+                      if (UARTCharPutNonBlocking(UART0_BASE, bufsend_i[send_index])){
+                          send_index++;
+                      }
+                  }
+               }
+            }
+*/
+
+                if (UARTCharsAvail(UART0_BASE)) {
+                   command = UARTCharGet(UART0_BASE);
+                   if(command == 's') {
+                       send_index = 0u;
+                      while (send_index < 2*ARRAY_LENGTH) {
+                           UARTCharPut(UART0_BASE, bufsend[send_index]);
+                           send_index++;
+                       }
+                       send_index = 0u;
+                      while (send_index < 2*ARRAY_LENGTH) {
+                          UARTCharPut(UART0_BASE, bufsend_i[send_index]);
+                          send_index++;
+                      }
+                      UARTCharPut(UART0_BASE, 0xFF); //Sends FF to indicate end of data send
+                      UARTCharPut(UART0_BASE, 0xFF);
+                   } else if (command == 'c') {
+                       command = UARTCharGet(UART0_BASE);
+                       if (command == 'b') {
+                           stay = true;
+
+                       } else if (command == 'g') {
+                           stay = false;
+                           //Enable the Systick
+                           SysTickDisable();
+
+                           //Enable the Systick's interruptions
+                           SysTickIntDisable();
+                       }
+                   }
+                }
+
+
+
+                aux = SysTickValueGet();
+
+
+    }//end if - new data
+/*
+    if (UARTCharsAvail(UART0_BASE)) {
+       if(UARTCharGet(UART0_BASE) == 's') {
+       send_index = 0u;
+      while (send_index < 2*ARRAY_LENGTH) {
+           if (UARTCharPutNonBlocking(UART0_BASE,bufsend[send_index])){
+               send_index++;
+           }
+       }
+       send_index = 0u;
+      while (send_index < 2*ARRAY_LENGTH) {
+          if (UARTCharPutNonBlocking(UART0_BASE, bufsend_i[send_index])){
+              send_index++;
+          }
+      }
+   }
+}
+*/
+
+
+
+    if (UARTCharsAvail(UART0_BASE)) {
+       command = UARTCharGet(UART0_BASE);
+       if(command == 's') {
+           send_index = 0u;
+          while (send_index < 2*ARRAY_LENGTH) {
+               UARTCharPut(UART0_BASE, bufsend[send_index]);
+               send_index++;
+           }
+           send_index = 0u;
+          while (send_index < 2*ARRAY_LENGTH) {
+              UARTCharPut(UART0_BASE, bufsend_i[send_index]);
+              send_index++;
+          }
+          UARTCharPut(UART0_BASE, 0xFF); //Sends FF to indicate end of data send
+          UARTCharPut(UART0_BASE, 0xFF);
+       } else if (command == 'c') {
+           command = UARTCharGet(UART0_BASE);
+           if (command == 'b') {
+               stay = true;
+
+           } else if (command == 'g') {
+               stay = false;
+               //Enable the Systick
+               SysTickDisable();
+
+               //Enable the Systick's interruptions
+               SysTickIntDisable();
+           }
+       }
+    }
+/*
+
+            // Sw reading
+                switch1 = GPIOPinRead(GPIOF_BASE, SW1);
+                sw1state = sw_debounce(switch1);
+                if ((sw1state == 0) && (sw1press == 0)) {
+                    GPIOPinWrite(GPIO_PORTF_AHB_BASE, LED_RED | LED_BLUE | LED_GREEN, 0);
+                    sw1press = 1;
+                    stay = false;
+                } else if (sw1state != 0) {
+                    sw1press = 0;
+                }
+                */
+     }//end while
+
+  }//stay = true
+  else {
+
+      //while there's no measurement going on.
+      //nothing will happen if an "s" arrives.
+      //Only a change in the stay variable will do something.
+      if (UARTCharsAvail(UART0_BASE)) {
+         command = UARTCharGet(UART0_BASE);
+         if (command == 'c') {
+             command = UARTCharGet(UART0_BASE);
+             if (command == 'b') {
+                 stay = true;
+
+             } else if (command == 'g') {
+                 stay = false;
+             }
+         }
+      }
+  }//end else - stay=false
+
+
+ }//end while(1)
+}// end Ind_Mes
+
+
+void SysTick_Handler_Ind (void){
+    //5.0 Definitions
+    uint32_t extern samp_L[MAX_SAMPLES];
+    uint32_t extern samp_R[MAX_SAMPLES];
+    int extern NRO_SAMPLES;
+    int extern counter;
+    uint32_t extern aux;
+
+    //5.1 Set the Fet and program to start the measurement cycle.
+
+    //As SysTick calls to an interrup when it's time for a new sampling
+    //period, the counter will down-count the number of samples. So, must
+    //be initiated.
+    counter = NRO_SAMPLES;
+
+    //Turn on the FET.
+    GPIOPinWrite(GPIO_PORTD_BASE, GPIO_PIN_6 | GPIO_PIN_7, GPIO_PIN_6);
+
+    //5.2 Sampling loop
+
+    uint32_t nx_sample = SysTickValueGet();
+    //int j = 0; //array index
+
+    while ( counter != 0){
+        //aux = SysTickValueGet();
+        if ( SysTickValueGet() <= nx_sample ) {
+                            //Get new data
+            // Dummy data for tx FIFO, to trigger the CS and CLK.
+            SSIDataPut(SSI0_BASE, 0);
+            //SSIDataPut(SSI1_BASE, 0);
+            // Get value from RX FIFO
+
+            //SSIDataGet(SSI0_BASE, &samp_L[NRO_SAMPLES - counter]);
+            //SSIDataGet(SSI1_BASE, &samp_R[NRO_SAMPLES - counter]);
+
+            SSIDataGetNonBlocking(SSI0_BASE, &samp_L[NRO_SAMPLES - counter]);
+            SSIDataGetNonBlocking(SSI1_BASE, &samp_R[NRO_SAMPLES - counter]);
+
+                            //Update parameters
+            //++j;
+            //nx_sample -= ((SYS_CLOCK_HZ) / (Fs));
+            nx_sample -= 160u;
+            --counter;
+        }//end if
+    } //end while
+
+    //5.3 Turn off the FET
+    //GPIOPinWrite(GPIO_PORTD_BASE, GPIO_PIN_6 | GPIO_PIN_7, 0);
+    GPIOPinWrite(GPIO_PORTD_BASE, GPIO_PIN_6 | GPIO_PIN_7, GPIO_PIN_7);
+    //GPIOPinWrite(GPIO_PORTD_BASE, GPIO_PIN_6 | GPIO_PIN_7, GPIO_PIN_7);
+}//end SysTick_Handler_Ind

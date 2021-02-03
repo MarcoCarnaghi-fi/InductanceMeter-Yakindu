@@ -1,0 +1,188 @@
+
+#include "inc/bsp.h"
+
+//0. Definitions
+#define SATURATION_THRESHOLD 26214 // = 0.8 * 2^16
+const float K_RT =  2.65958e-3;
+int extern Gain_L, Gain_R;// NRO_SAMPLES;
+int SAMPLES;
+bool gain_set = true;
+bool time_set = true;
+
+uint32_t n_i = 0u;
+uint32_t n_f = 0u;
+
+uint32_t aux_1, aux_0;
+
+float aux_f;
+ 
+//void Time_Gain_set (uint32_t Fs, uint32_t FREC_RESAMPLING, uint32_t *sp)
+int Time_Gain_set(uint32_t Fs, uint32_t FREC_RESAMPLING, uint32_t sp)
+{
+	
+	// 1. Configurate the SysTick according to the parameters of Ind_Mes
+	
+	// Configure 100ms SysTick interruption
+    SysTick_Init(SYS_CLOCK_HZ/FREC_RESAMPLING - 1U);
+    //Define the SysTick_Handler
+    SysTickIntRegister(*(SysTick_Handler_SET));
+	
+	
+	
+    //Enable the Systick
+    SysTickEnable();
+	//Enable the Systick's interruptions
+    SysTickIntEnable();
+	//Turn on the FET.
+    GPIOPinWrite(GPIO_PORTD_BASE, GPIO_PIN_6 | GPIO_PIN_7, GPIO_PIN_6);
+	
+	//Initialize reference
+	n_i = SysTickValueGet();
+	
+	while ( gain_set && time_set ){
+		
+			// 2. Get Data
+	        // Dummy data for tx FIFO, to trigger the CS and CLK.
+            SSIDataPut(SSI0_BASE, 0);
+            //SSIDataPut(SSI1_BASE, 0);
+            // Get value from RX FIFO
+            SSIDataGet(SSI0_BASE, aux_0);
+            SSIDataGet(SSI1_BASE, aux_1);	
+			
+			//It's important to process data only when its possitive value
+			// So... it's needed to analize if its between 33.000 and further
+			
+			if ( aux_0 < 33000  &&  aux_1 < 33000){
+				//3. Define if there was saturation in the measurement
+				
+				//3.1 Saturation in inductor measurement
+				if ( aux_0 >  SATURATION_THRESHOLD){ 
+					//Configurate Gain_L and Gain_R
+						if (Gain_L == 1000)
+						{
+							Gain_L = 100;
+							GPIOPinWrite(GPIO_PORTG_BASE, A1_ind | A0_ind, A0_ind);
+							//Check for compatible state in Gain_R
+							if ( (Gain_R == 5 ) || ( Gain_R == 1 ) ){
+								Gain_R = 2;
+								GPIOPinWrite(GPIO_PORTG_BASE, A1_res | A0_res, A0_res);
+							}
+						}
+						if (Gain_L == 100)
+						{
+							Gain_L == 10;
+							GPIOPinWrite(GPIO_PORTG_BASE, A1_ind | A0_ind, A1_ind);
+
+							if ( (Gain_R == 5 ) || ( Gain_R == 1 ) ){
+								Gain_R = 2;
+								GPIOPinWrite(GPIO_PORTG_BASE, A1_res | A0_res, A0_res);
+							}
+						}
+						else 
+						{
+							Gain_L = 1;
+							GPIOPinWrite(GPIO_PORTG_BASE, A1_ind | A0_ind, 0);
+							
+							//Only one safe state in Gain_R
+							Gain_R = 10;
+							GPIOPinWrite(GPIO_PORTG_BASE, A1_res | A0_res, A1_res | A0_res);
+							
+						}
+					gain_set = false;
+				}
+				//3.2 Saturation in resistance measurement
+				if ( aux_1 >  SATURATION_THRESHOLD){ 
+					//Configurate Gain_L and Gain_R
+						if (Gain_R == 10)
+						{
+							Gain_R = 5;
+							GPIOPinWrite(GPIO_PORTG_BASE, A1_res | A0_res, A1_res); 
+							//The only Gain_L compatible is 1000, in other case, set Gain_R = 2.
+							if (Gain_L != 1000 ){
+								Gain_R == 2;
+								GPIOPinWrite(GPIO_PORTG_BASE, A1_res | A0_res, A0_res); 
+							}
+								
+							
+						}
+						
+						if (Gain_R == 5)
+						{
+							Gain_R == 2;
+							GPIOPinWrite(GPIO_PORTG_BASE, A1_res | A0_res, A0_res); 
+						}
+						else 
+						{	//Only its posible to set Gain_R=1 if Gain_L =1000. In other case, it's better to let Gain_R=2
+							if (Gain_L == 1000){
+								Gain_R = 1;
+								GPIOPinWrite(GPIO_PORTG_BASE, A1_res | A0_res, 0);
+							}
+							
+						}
+					
+					gain_set = false;
+				}
+				
+				//4. Define if current has already reached to the wished current.
+				
+				//To avoid missunderstanding, this will only be analized if gain_set = true.
+				//which means the data was well adquired.
+				
+				if (gain_set){
+					
+					aux_f = (float) ((K_RT/Gain_R) * aux_1); // aux_1 = V_r(uint32) ; aux_f = I_r(float)
+					
+					if ( (aux_f) >= (float)((sp) / 4) ) {
+						n_f = SysTickValueGet();
+						
+						SAMPLES = (int) floor ( Fs/SYS_CLOCK_HZ * (n_i - n_f) );
+						
+						//As everything was configurated, the loops ends
+						gain_set = false;
+						time_set = false;
+						
+						//Disable of SysTick interrupts is needed
+						SysTickIntDisable();
+						SysTickDisable();
+						
+						//And turn off the FET
+						GPIOPinWrite(GPIO_PORTD_BASE, GPIO_PIN_6 | GPIO_PIN_7, GPIO_PIN_7);
+					} 
+					else{ // The I_wished wasn't reach so the measurement must continue.
+						gain_set = true;
+						time_set = true;
+						
+					} 
+				}
+				else { //The gain wasn't well configurated so, another iteration is needed 
+					gain_set = true;
+					time_set = true;
+				}
+			}//end if-positive state
+	}//end while
+	
+	return SAMPLES;
+}// End Time_Gain_set
+
+
+//If the SysTick_Handler is called is because the ind won't reach the indicated current.
+void SysTick_Handler_SET(void) {
+	bool extern gain_set, time_set;
+	int extern Gain_L, Gain_R; //SAMPLES;
+	
+	gain_set = false;
+	time_set = false;
+	// NRO_SAMPLES = 1 --> no measurement.
+	SAMPLES = 1;
+	//Safe gain configuration.
+	Gain_L = 10;
+	GPIOPinWrite(GPIO_PORTG_BASE, A1_ind | A0_ind, A1_ind);
+	Gain_R = 2;
+	GPIOPinWrite(GPIO_PORTG_BASE, A1_res | A0_res, A0_res);
+	
+	//Disable of SysTick interrupts is needed
+	SysTickIntDisable();
+	SysTickDisable();
+	//And turn off the FET
+	GPIOPinWrite(GPIO_PORTD_BASE, GPIO_PIN_6 | GPIO_PIN_7, GPIO_PIN_7);
+}

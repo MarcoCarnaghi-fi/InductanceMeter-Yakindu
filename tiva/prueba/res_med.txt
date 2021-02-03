@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportImportMemento.1>
+<VarMeta IMemento.internal.id="v_gate"/>
+<VarMeta IMemento.internal.id="offset"/>
+<VarMeta IMemento.internal.id="Resistance"/>
+<VarMeta IMemento.internal.id="v_gate_k"/>
+<VarMeta IMemento.internal.id="Vref"/>
+<VarMeta IMemento.internal.id="V_L"/>
+<VarMeta IMemento.internal.id="V_R"/>
+<VarMeta IMemento.internal.id="data"/>
+<VarMeta IMemento.internal.id="HardFault_Handler"/>
+<VarMeta IMemento.internal.id="error"/>
+<VarMeta IMemento.internal.id="ss"/>
+<VarMeta IMemento.internal.id="runs"/>
+<VarMeta IMemento.internal.id="count_prom"/>
+</ExportImportMemento.1>

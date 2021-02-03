@@ -1,0 +1,24 @@
+    //RL MEASUREMENT
+
+
+        const float     step        = 0.0141        ;
+        const float     K_LR        = 1.873251748e-3;
+        const float     K_RR        = 2.65958e-3    ;
+        const float     piR         = 3.1415926     ;
+        const float     V_MAX_DAC   = 2.5           ; // Referes to V_ref of DAC
+        const float     V_MAX_ADC   = 4.096         ; // Referes to V_ref of DAC
+        const float     Rs          = 0.047         ;
+        const float     Gain_OPA227 = 2             ;
+        const float     V_TH_FET    = 3.06          ;
+        const float     Vref_ss     = 0.282         ; //6
+        const float     V_th_ss     = 4.7e-3        ;
+
+    //TIME GAIN SET
+        const float     K_RT        =   2.65958e-3  ;
+        const uint32_t  I_wished    =   20u         ;
+
+    //IND MEASUREMENT
+        const float K_L = 1.873251748e-3    ;
+        const float K_R = 1.874890e-2       ;
+        const float pi  = 3.1415926         ;
+        const float T   = 2e-6              ;

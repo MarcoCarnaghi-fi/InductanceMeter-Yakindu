@@ -1,0 +1,2559 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (exit)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (__libc_init_array)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (memset)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o) (atexit)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_floor.o)
+                              ./indM_control_and_RCalculation.o (floor)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o)
+                              ./least_square.o (pow)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o) (__ieee754_pow)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_sqrt.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o) (__ieee754_sqrt)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_fabs.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o) (fabs)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_finite.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o) (finite)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_lib_ver.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o) (__fdlib_version)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_matherr.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o) (matherr)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_nan.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o) (nan)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_rint.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o) (rint)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_scalbn.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o) (scalbn)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_copysign.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_scalbn.o) (copysign)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o) (__aeabi_dsub)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+                              ./indM_normal_Close.o (__aeabi_dmul)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_cmpdf2.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o) (__aeabi_dcmpeq)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_unorddf2.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o) (__aeabi_dcmpun)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+                              ./indM_normal_Close.o (__aeabi_d2iz)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixunsdfsi.o)
+                              ./indM_control_and_RCalculation.o (__aeabi_d2uiz)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_truncdfsf2.o)
+                              ./indM_setting.o (__aeabi_d2f)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-errno.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o) (__errno)
+C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                              ./indM_port_configuration.o (FPUEnable)
+C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                              ./indM_port_configuration.o (GPIOPadConfigSet)
+C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                              C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o) (IntRegister)
+C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+                              ./indM_port_configuration.o (MPUEnable)
+C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                              ./indM_port_configuration.o (SSIConfigSetExpClk)
+C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                              ./uartstdio.o (SysCtlPeripheralPresent)
+C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+                              ./main.o (SysTickEnable)
+C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                              ./uartstdio.o (UARTEnable)
+C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+                              C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o) (CPUcpsid)
+c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+                              c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+t                   0x4               ./least_square.o
+A22                 0x4               ./least_square.o
+__lock___atexit_recursive_mutex
+                    0x1               c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+det                 0x4               ./least_square.o
+L_i_Ind             0x258             ./indM_data_Processing.o
+V_R                 0x4               ./indM_control_and_RCalculation.o
+__lock___env_recursive_mutex
+                    0x1               c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+runs_R              0x4               ./indM_control_and_RCalculation.o
+__lock___malloc_recursive_mutex
+                    0x1               c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+samp_R              0x1068            ./main.o
+samp_L              0x1068            ./main.o
+I_R                 0x1068            ./indM_data_Processing.o
+current             0x12c             ./indM_data_Processing.o
+A12                 0x4               ./least_square.o
+V_L1                0x4               ./indM_control_and_RCalculation.o
+V_L                 0x1068            ./indM_data_Processing.o
+L_i_Current         0x258             ./indM_data_Processing.o
+counter             0x4               ./indM_get_Data_Array.o
+B2                  0x4               ./least_square.o
+data                0x8               ./main.o
+Gain_L              0x4               ./main.o
+error               0x8               ./indM_control_and_RCalculation.o
+offset              0x8               ./main.o
+I                   0x4               ./least_square.o
+inductance          0x12c             ./indM_data_Processing.o
+__lock___at_quick_exit_mutex
+                    0x1               c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+A11                 0x4               ./least_square.o
+ls                  0x48              ./main.o
+B1                  0x4               ./least_square.o
+v_gate_k            0x4               ./indM_control_and_RCalculation.o
+__lock___dd_hash_mutex
+                    0x1               c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+u                   0x8               ./indM_control_and_RCalculation.o
+Gain_R              0x4               ./main.o
+__lock___sfp_recursive_mutex
+                    0x1               c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .debug_frame   0x00000000       0x28 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+ .debug_frame   0x00000000       0x2c c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+ .debug_frame   0x00000000       0x38 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x5c c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000000       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+ .debug_frame   0x00000000       0xb0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+ .debug_frame   0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000000       0x30 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_floor.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_floor.o)
+ .debug_frame   0x00000000       0x50 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o)
+ .debug_frame   0x00000000       0x68 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o)
+ .debug_frame   0x00000000       0x30 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_sqrt.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_sqrt.o)
+ .debug_frame   0x00000000       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_fabs.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_fabs.o)
+ .debug_frame   0x00000000       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_finite.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_finite.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_lib_ver.o)
+ .debug_frame   0x00000000       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00000000       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_nan.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_nan.o)
+ .debug_frame   0x00000000       0x38 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_rint.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_rint.o)
+ .debug_frame   0x00000000       0x2c c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_scalbn.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_scalbn.o)
+ .debug_frame   0x00000000       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_copysign.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_copysign.o)
+ .debug_frame   0x00000000       0xac c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000000       0x22 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000000       0x50 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000000       0x22 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00000000       0xc4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000000       0x22 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00000000       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_unorddf2.o)
+ .ARM.attributes
+                0x00000000       0x22 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x00000000       0x24 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000000       0x22 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00000000       0x24 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x00000000       0x22 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x00000000       0x24 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000000       0x22 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_truncdfsf2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x00000000         0x00040000         xr
+RAM              0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+LOAD ./Control_Res.o
+LOAD ./Local_Average.o
+LOAD ./bsp.o
+LOAD ./indM_control_and_RCalculation.o
+LOAD ./indM_data_Processing.o
+LOAD ./indM_get_Data.o
+LOAD ./indM_get_Data_Array.o
+LOAD ./indM_normal_Close.o
+LOAD ./indM_port_configuration.o
+LOAD ./indM_res_Closing.o
+LOAD ./indM_res_Init.o
+LOAD ./indM_safe_Close.o
+LOAD ./indM_set_Time_Reference.o
+LOAD ./indM_setting.o
+LOAD ./indM_uART_routine.o
+LOAD ./least_square.o
+LOAD ./main.o
+LOAD ./startup_tm4c_gnu.o
+LOAD ./uartstdio.o
+LOAD ./src/sc_timer_service.o
+LOAD ./src-gen/indM.o
+                0x00000200                STACK_SIZE = 0x200
+                0x00000000                HEAP_SIZE = 0x0
+
+.isr_vector     0x00000000      0x26c
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x26c ./startup_tm4c_gnu.o
+                0x00000000                g_pfnVectors
+                0x0000026c                . = ALIGN (0x4)
+
+.eh_frame       0x0000026c        0x4
+ .eh_frame      0x0000026c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .eh_frame      0x0000026c        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+
+.ARM.extab      0x00000270        0x0
+ .ARM.extab     0x00000270        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+
+.ARM.exidx      0x00000270        0x8
+ .ARM.exidx     0x00000270        0x8 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+
+.text           0x00000278     0x6788
+                0x00000278                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000278        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .text          0x00000278       0x40 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .text          0x000002b8       0x74 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+                0x000002b8                _start
+                0x000002b8                _mainCRTStartup
+ .text          0x0000032c        0x0 ./Control_Res.o
+ .text          0x0000032c        0x0 ./Local_Average.o
+ .text          0x0000032c        0x0 ./bsp.o
+ .text          0x0000032c        0x0 ./indM_control_and_RCalculation.o
+ .text          0x0000032c        0x0 ./indM_data_Processing.o
+ .text          0x0000032c        0x0 ./indM_get_Data.o
+ .text          0x0000032c        0x0 ./indM_get_Data_Array.o
+ .text          0x0000032c        0x0 ./indM_normal_Close.o
+ .text          0x0000032c        0x0 ./indM_port_configuration.o
+ .text          0x0000032c        0x0 ./indM_res_Closing.o
+ .text          0x0000032c        0x0 ./indM_res_Init.o
+ .text          0x0000032c        0x0 ./indM_safe_Close.o
+ .text          0x0000032c        0x0 ./indM_set_Time_Reference.o
+ .text          0x0000032c        0x0 ./indM_setting.o
+ .text          0x0000032c        0x0 ./indM_uART_routine.o
+ .text          0x0000032c        0x0 ./least_square.o
+ .text          0x0000032c        0x0 ./main.o
+ .text          0x0000032c        0x0 ./startup_tm4c_gnu.o
+ .text          0x0000032c        0x0 ./uartstdio.o
+ .text          0x0000032c        0x0 ./src/sc_timer_service.o
+ .text          0x0000032c        0x0 ./src-gen/indM.o
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_floor.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_sqrt.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_fabs.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_finite.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_lib_ver.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_matherr.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_nan.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_rint.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_scalbn.o)
+ .text          0x0000032c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_copysign.o)
+ .text          0x0000032c      0x378 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+                0x0000032c                __aeabi_drsub
+                0x00000334                __aeabi_dsub
+                0x00000334                __subdf3
+                0x00000338                __aeabi_dadd
+                0x00000338                __adddf3
+                0x000005b0                __floatunsidf
+                0x000005b0                __aeabi_ui2d
+                0x000005d0                __floatsidf
+                0x000005d0                __aeabi_i2d
+                0x000005f4                __aeabi_f2d
+                0x000005f4                __extendsfdf2
+                0x00000638                __floatundidf
+                0x00000638                __aeabi_ul2d
+                0x00000648                __floatdidf
+                0x00000648                __aeabi_l2d
+ .text          0x000006a4      0x424 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+                0x000006a4                __aeabi_dmul
+                0x000006a4                __muldf3
+                0x000008f8                __divdf3
+                0x000008f8                __aeabi_ddiv
+ .text          0x00000ac8      0x110 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_cmpdf2.o)
+                0x00000ac8                __gtdf2
+                0x00000ac8                __gedf2
+                0x00000ad0                __ltdf2
+                0x00000ad0                __ledf2
+                0x00000ad8                __nedf2
+                0x00000ad8                __eqdf2
+                0x00000ad8                __cmpdf2
+                0x00000b54                __aeabi_cdrcmple
+                0x00000b64                __aeabi_cdcmpeq
+                0x00000b64                __aeabi_cdcmple
+                0x00000b74                __aeabi_dcmpeq
+                0x00000b88                __aeabi_dcmplt
+                0x00000b9c                __aeabi_dcmple
+                0x00000bb0                __aeabi_dcmpge
+                0x00000bc4                __aeabi_dcmpgt
+ .text          0x00000bd8       0x2c c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_unorddf2.o)
+                0x00000bd8                __unorddf2
+                0x00000bd8                __aeabi_dcmpun
+ .text          0x00000c04       0x50 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+                0x00000c04                __aeabi_d2iz
+                0x00000c04                __fixdfsi
+ .text          0x00000c54       0x40 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixunsdfsi.o)
+                0x00000c54                __aeabi_d2uiz
+                0x00000c54                __fixunsdfsi
+ .text          0x00000c94       0xa0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_truncdfsf2.o)
+                0x00000c94                __truncdfsf2
+                0x00000c94                __aeabi_d2f
+ .text          0x00000d34        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-errno.o)
+ .text          0x00000d34        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+ .text          0x00000d34        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+ .text          0x00000d34        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .text          0x00000d34        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+ .text          0x00000d34        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+ .text          0x00000d34        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+ .text          0x00000d34        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+ .text          0x00000d34        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+ .text          0x00000d34        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+ .text          0x00000d34        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+ .text          0x00000d34        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .text          0x00000d34        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.text*)
+ .text.Control_Res
+                0x00000d34       0x6c ./Control_Res.o
+                0x00000d34                Control_Res
+ .text.Local_Average
+                0x00000da0       0x52 ./Local_Average.o
+                0x00000da0                Local_Average
+ *fill*         0x00000df2        0x2 
+ .text.assert_failed
+                0x00000df4       0x24 ./bsp.o
+                0x00000df4                assert_failed
+ .text.sw_debounce
+                0x00000e18       0x60 ./bsp.o
+                0x00000e18                sw_debounce
+ .text.SysTick_Init
+                0x00000e78       0x14 ./bsp.o
+                0x00000e78                SysTick_Init
+ .text.indM_control_and_RCalculation
+                0x00000e8c      0x2ac ./indM_control_and_RCalculation.o
+                0x00000e8c                indM_control_and_RCalculation
+ .text.indM_data_Processing
+                0x00001138      0x2b0 ./indM_data_Processing.o
+                0x00001138                indM_data_Processing
+ .text.indM_get_Data
+                0x000013e8       0x2c ./indM_get_Data.o
+                0x000013e8                indM_get_Data
+ .text.indM_get_Data_Array
+                0x00001414       0x8c ./indM_get_Data_Array.o
+                0x00001414                indM_get_Data_Array
+ .text.indM_normal_Close
+                0x000014a0       0x68 ./indM_normal_Close.o
+                0x000014a0                indM_normal_Close
+ .text.indM_port_configuration
+                0x00001508      0x2a0 ./indM_port_configuration.o
+                0x00001508                indM_port_configuration
+ .text.indM_res_Closing
+                0x000017a8       0x80 ./indM_res_Closing.o
+                0x000017a8                indM_res_Closing
+ .text.indM_res_Init
+                0x00001828      0x174 ./indM_res_Init.o
+                0x00001828                indM_res_Init
+ .text.indM_safe_Close
+                0x0000199c       0x58 ./indM_safe_Close.o
+                0x0000199c                indM_safe_Close
+ .text.indM_set_Time_Reference
+                0x000019f4       0x1c ./indM_set_Time_Reference.o
+                0x000019f4                indM_set_Time_Reference
+ .text.indM_setting
+                0x00001a10      0x28c ./indM_setting.o
+                0x00001a10                indM_setting
+ .text.indM_uART_routine
+                0x00001c9c       0xb0 ./indM_uART_routine.o
+                0x00001c9c                indM_uART_routine
+ *fill*         0x00001d4c        0x4 
+ .text.least_square
+                0x00001d50      0x138 ./least_square.o
+                0x00001d50                least_square
+ .text.SysTick_Handler_Hook
+                0x00001e88       0x10 ./main.o
+                0x00001e88                SysTick_Handler_Hook
+ .text.indM_set_timer
+                0x00001e98       0x1c ./main.o
+                0x00001e98                indM_set_timer
+ .text.indM_unset_timer
+                0x00001eb4       0x10 ./main.o
+                0x00001eb4                indM_unset_timer
+ .text.Systick_Configuration
+                0x00001ec4       0x24 ./main.o
+                0x00001ec4                Systick_Configuration
+ .text.main     0x00001ee8       0x6c ./main.o
+                0x00001ee8                main
+ .text.indM_systick_Conf
+                0x00001f54        0xa ./main.o
+                0x00001f54                indM_systick_Conf
+ .text.indM_handler_Disable
+                0x00001f5e        0xc ./main.o
+                0x00001f5e                indM_handler_Disable
+ *fill*         0x00001f6a        0x2 
+ .text.NMI_Handler
+                0x00001f6c       0x14 ./startup_tm4c_gnu.o
+                0x00001f6c                NMI_Handler
+ .text.MemManage_Handler
+                0x00001f80       0x18 ./startup_tm4c_gnu.o
+                0x00001f80                MemManage_Handler
+ .text.HardFault_Handler
+                0x00001f98       0x18 ./startup_tm4c_gnu.o
+                0x00001f98                HardFault_Handler
+ .text.BusFault_Handler
+                0x00001fb0       0x18 ./startup_tm4c_gnu.o
+                0x00001fb0                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00001fc8       0x1c ./startup_tm4c_gnu.o
+                0x00001fc8                UsageFault_Handler
+ .text.Default_Handler
+                0x00001fe4       0x18 ./startup_tm4c_gnu.o
+                0x00001fe4                uDMAST_IRQHandler
+                0x00001fe4                GPIOPortP4_IRQHandler
+                0x00001fe4                PWM1Gen3_IRQHandler
+                0x00001fe4                WideTimer5B_IRQHandler
+                0x00001fe4                DebugMon_Handler
+                0x00001fe4                QEI2_IRQHandler
+                0x00001fe4                FlashCtrl_IRQHandler
+                0x00001fe4                GPIOPortP7_IRQHandler
+                0x00001fe4                Timer0B_IRQHandler
+                0x00001fe4                I2C0_IRQHandler
+                0x00001fe4                SysTick_Handler
+                0x00001fe4                WideTimer4B_IRQHandler
+                0x00001fe4                PendSV_Handler
+                0x00001fe4                I2C1_IRQHandler
+                0x00001fe4                GPIOPortP5_IRQHandler
+                0x00001fe4                PWMGen0_IRQHandler
+                0x00001fe4                UART1_IRQHandler
+                0x00001fe4                CAN1_IRQHandler
+                0x00001fe4                Timer1B_IRQHandler
+                0x00001fe4                Watchdog_IRQHandler
+                0x00001fe4                GPIOPortS_IRQHandler
+                0x00001fe4                GPIOPortQ7_IRQHandler
+                0x00001fe4                PWM1Gen2_IRQHandler
+                0x00001fe4                UART0_IRQHandler
+                0x00001fe4                GPIOPortL_IRQHandler
+                0x00001fe4                SSI0_IRQHandler
+                0x00001fe4                GPIOPortM_IRQHandler
+                0x00001fe4                FPU_IRQHandler
+                0x00001fe4                ADCSeq1_IRQHandler
+                0x00001fe4                GPIOPortP0_IRQHandler
+                0x00001fe4                WideTimer0B_IRQHandler
+                0x00001fe4                PWMFault_IRQHandler
+                0x00001fe4                WideTimer1A_IRQHandler
+                0x00001fe4                I2C4_IRQHandler
+                0x00001fe4                I2C5_IRQHandler
+                0x00001fe4                GPIOPortQ5_IRQHandler
+                0x00001fe4                PWMGen1_IRQHandler
+                0x00001fe4                SSI1_IRQHandler
+                0x00001fe4                I2C2_IRQHandler
+                0x00001fe4                GPIOPortC_IRQHandler
+                0x00001fe4                UART5_IRQHandler
+                0x00001fe4                GPIOPortK_IRQHandler
+                0x00001fe4                ADCSeq2_IRQHandler
+                0x00001fe4                PWMGen2_IRQHandler
+                0x00001fe4                UART2_IRQHandler
+                0x00001fe4                GPIOPortP3_IRQHandler
+                0x00001fe4                ADC1Seq0_IRQHandler
+                0x00001fe4                UART4_IRQHandler
+                0x00001fe4                GPIOPortJ_IRQHandler
+                0x00001fe4                Default_Handler
+                0x00001fe4                WideTimer0A_IRQHandler
+                0x00001fe4                Timer5A_IRQHandler
+                0x00001fe4                WideTimer3B_IRQHandler
+                0x00001fe4                WideTimer2B_IRQHandler
+                0x00001fe4                WideTimer5A_IRQHandler
+                0x00001fe4                Timer4A_IRQHandler
+                0x00001fe4                QEI1_IRQHandler
+                0x00001fe4                PWM1Fault_IRQHandler
+                0x00001fe4                GPIOPortP6_IRQHandler
+                0x00001fe4                QEI0_IRQHandler
+                0x00001fe4                ADC1Seq2_IRQHandler
+                0x00001fe4                ADC1Seq1_IRQHandler
+                0x00001fe4                PWMGen3_IRQHandler
+                0x00001fe4                GPIOPortD_IRQHandler
+                0x00001fe4                USB0_IRQHandler
+                0x00001fe4                I2C3_IRQHandler
+                0x00001fe4                SVC_Handler
+                0x00001fe4                GPIOPortP2_IRQHandler
+                0x00001fe4                GPIOPortQ4_IRQHandler
+                0x00001fe4                Timer3B_IRQHandler
+                0x00001fe4                Timer3A_IRQHandler
+                0x00001fe4                GPIOPortA_IRQHandler
+                0x00001fe4                ADC1Seq3_IRQHandler
+                0x00001fe4                Timer0A_IRQHandler
+                0x00001fe4                GPIOPortP1_IRQHandler
+                0x00001fe4                ADCSeq0_IRQHandler
+                0x00001fe4                Timer1A_IRQHandler
+                0x00001fe4                GPIOPortG_IRQHandler
+                0x00001fe4                GPIOPortQ1_IRQHandler
+                0x00001fe4                GPIOPortQ3_IRQHandler
+                0x00001fe4                Timer5B_IRQHandler
+                0x00001fe4                ADCSeq3_IRQHandler
+                0x00001fe4                WideTimer4A_IRQHandler
+                0x00001fe4                GPIOPortE_IRQHandler
+                0x00001fe4                CAN0_IRQHandler
+                0x00001fe4                GPIOPortQ0_IRQHandler
+                0x00001fe4                Comp0_IRQHandler
+                0x00001fe4                Comp1_IRQHandler
+                0x00001fe4                Comp2_IRQHandler
+                0x00001fe4                GPIOPortQ6_IRQHandler
+                0x00001fe4                SSI2_IRQHandler
+                0x00001fe4                PWM1Gen0_IRQHandler
+                0x00001fe4                GPIOPortF_IRQHandler
+                0x00001fe4                UART7_IRQHandler
+                0x00001fe4                UART6_IRQHandler
+                0x00001fe4                WideTimer2A_IRQHandler
+                0x00001fe4                GPIOPortB_IRQHandler
+                0x00001fe4                WideTimer3A_IRQHandler
+                0x00001fe4                CAN2_IRQHandler
+                0x00001fe4                WideTimer1B_IRQHandler
+                0x00001fe4                GPIOPortH_IRQHandler
+                0x00001fe4                GPIOPortQ2_IRQHandler
+                0x00001fe4                GPIOPortR_IRQHandler
+                0x00001fe4                Timer4B_IRQHandler
+                0x00001fe4                Timer2A_IRQHandler
+                0x00001fe4                SSI3_IRQHandler
+                0x00001fe4                Timer2B_IRQHandler
+                0x00001fe4                uDMAError_IRQHandler
+                0x00001fe4                GPIOPortN_IRQHandler
+                0x00001fe4                UART3_IRQHandler
+                0x00001fe4                SysCtrl_IRQHandler
+                0x00001fe4                Hibernate_IRQHandler
+                0x00001fe4                PWM1Gen1_IRQHandler
+ .text.Reset_Handler
+                0x00001ffc       0x60 ./startup_tm4c_gnu.o
+                0x00001ffc                Reset_Handler
+ .text.UARTStdioConfig
+                0x0000205c       0x48 ./uartstdio.o
+                0x0000205c                UARTStdioConfig
+ .text.UARTwrite
+                0x000020a4       0x38 ./uartstdio.o
+                0x000020a4                UARTwrite
+ .text.UARTgets
+                0x000020dc       0x88 ./uartstdio.o
+                0x000020dc                UARTgets
+ .text.UARTgetc
+                0x00002164       0x14 ./uartstdio.o
+                0x00002164                UARTgetc
+ .text.UARTvprintf
+                0x00002178      0x204 ./uartstdio.o
+                0x00002178                UARTvprintf
+ .text.UARTprintf
+                0x0000237c       0x1c ./uartstdio.o
+                0x0000237c                UARTprintf
+ .text.sc_timer_fired
+                0x00002398        0xe ./src/sc_timer_service.o
+ .text.sc_timer_start
+                0x000023a6       0x46 ./src/sc_timer_service.o
+                0x000023a6                sc_timer_start
+ .text.sc_timer_cancel
+                0x000023ec       0x36 ./src/sc_timer_service.o
+                0x000023ec                sc_timer_cancel
+ .text.sc_timer_service_init
+                0x00002422       0x26 ./src/sc_timer_service.o
+                0x00002422                sc_timer_service_init
+ .text.sc_timer_service_proceed
+                0x00002448       0x54 ./src/sc_timer_service.o
+                0x00002448                sc_timer_service_proceed
+ .text.swapInEvents
+                0x0000249c       0x4c ./src-gen/indM.o
+ .text.clearInEvents
+                0x000024e8       0x1c ./src-gen/indM.o
+ .text.swapInternalEvents
+                0x00002504       0x28 ./src-gen/indM.o
+ .text.clearInternalEvents
+                0x0000252c        0x8 ./src-gen/indM.o
+ .text.check_R_Main_s_Rl_Measurement_R_Res_Med__choice_0_tr1_tr1
+                0x00002534       0x14 ./src-gen/indM.o
+ .text.check_R_Main_s_Time_Gain_Setting_R_Time_Gain_set__choice_0_tr0_tr0
+                0x00002548        0x6 ./src-gen/indM.o
+ .text.check_R_Main_s_Time_Gain_Setting_R_Time_Gain_set__choice_1_tr0_tr0
+                0x0000254e       0x12 ./src-gen/indM.o
+ .text.enact_R_Main_s_Ind_Measurement
+                0x00002560        0x6 ./src-gen/indM.o
+ .text.enact_R_Handler_s_Time_Gain_Set_Handler_r_handler_s_end_time
+                0x00002566        0x8 ./src-gen/indM.o
+ .text.exact_R_Main_s_Rl_Measurement_R_Res_Med_s_Control_and_RCalculation
+                0x0000256e        0x8 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Rl_Measurement_R_Res_Med_s_Wait_default
+                0x00002576        0xa ./src-gen/indM.o
+ .text.effect_R_Main_s_Rl_Measurement_R_Res_Med__choice_0_tr0
+                0x00002580        0x8 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Ind_Measurement_R_Main_Measurement_s_Wait_User_default
+                0x00002588        0xa ./src-gen/indM.o
+ .text.enseq_R_Main_s_Ind_Measurement_R_Main_Measurement_s_Wait_New_data_default
+                0x00002592        0xa ./src-gen/indM.o
+ .text.enseq_R_Handler_s_Null_Handler_default
+                0x0000259c        0xa ./src-gen/indM.o
+ .text.enseq_R_Handler_s_Time_Gain_Set_Handler_r_handler_s_end_time_default
+                0x000025a6       0x12 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Port_Configuration
+                0x000025b8        0x8 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Rl_Measurement_R_Res_Med_s_Wait
+                0x000025c0        0x8 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Rl_Measurement_R_Res_Med_s_Initilization
+                0x000025c8        0x8 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Rl_Measurement_R_Res_Med_s_Control_and_RCalculation
+                0x000025d0        0xe ./src-gen/indM.o
+ .text.exseq_R_Main_s_Rl_Measurement_R_Res_Med_s_Close
+                0x000025de        0x8 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Safe_Close
+                0x000025e6        0x8 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Normal_Close
+                0x000025ee        0x8 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Ind_Measurement_R_Main_Measurement_s_Wait_User
+                0x000025f6        0x8 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Ind_Measurement_R_Main_Measurement_s_Wait_New_data
+                0x000025fe        0x8 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Ind_Measurement_R_Main_Measurement_s_Data_Processing
+                0x00002606        0x8 ./src-gen/indM.o
+ .text.exseq_R_Handler_s_Null_Handler
+                0x0000260e        0xa ./src-gen/indM.o
+ .text.exseq_R_Handler_s_Time_Gain_Set_Handler_r_handler_s_end_time
+                0x00002618        0xa ./src-gen/indM.o
+ .text.exseq_R_Main_s_Rl_Measurement_R_Res_Med
+                0x00002622       0x2a ./src-gen/indM.o
+ .text.exseq_R_Main_s_Rl_Measurement
+                0x0000264c        0x8 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Ind_Measurement_R_Main_Measurement
+                0x00002654       0x24 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Ind_Measurement
+                0x00002678        0x8 ./src-gen/indM.o
+ .text.react_R_Main_s_Ind_Measurement_R_Main_Measurement__entry_Default
+                0x00002680        0x8 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Ind_Measurement_R_Main_Measurement_default
+                0x00002688        0x8 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Ind_Measurement_default
+                0x00002690       0x10 ./src-gen/indM.o
+ .text.react_R_Handler__entry_Default
+                0x000026a0        0x8 ./src-gen/indM.o
+ .text.enseq_R_Handler_default
+                0x000026a8        0x8 ./src-gen/indM.o
+ .text.react    0x000026b0        0x4 ./src-gen/indM.o
+ .text.R_Main_s_Rl_Measurement_react
+                0x000026b4       0x12 ./src-gen/indM.o
+ .text.R_Main_s_Rl_Measurement_R_Res_Med_s_Initilization_react
+                0x000026c6       0x28 ./src-gen/indM.o
+ .text.R_Main_s_Time_Gain_Setting_react
+                0x000026ee       0x12 ./src-gen/indM.o
+ .text.enact_R_Main_s_Port_Configuration
+                0x00002700        0xc ./src-gen/indM.o
+ .text.enseq_R_Main_s_Port_Configuration_default
+                0x0000270c       0x12 ./src-gen/indM.o
+ .text.react_R_Main__entry_Default
+                0x0000271e        0x8 ./src-gen/indM.o
+ .text.enseq_R_Main_default
+                0x00002726        0x8 ./src-gen/indM.o
+ .text.R_Main_s_Ind_Measurement_react
+                0x0000272e       0x28 ./src-gen/indM.o
+ .text.R_Main_s_Ind_Measurement_R_Main_Measurement_s_Data_Processing_react
+                0x00002756       0x2c ./src-gen/indM.o
+ .text.exact_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Setting
+                0x00002782        0xc ./src-gen/indM.o
+ .text.exseq_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Setting
+                0x0000278e        0xe ./src-gen/indM.o
+ .text.exseq_R_Main
+                0x0000279c       0x5e ./src-gen/indM.o
+ .text.exseq_R_Main_s_Time_Gain_Setting_R_Time_Gain_set
+                0x000027fa       0x24 ./src-gen/indM.o
+ .text.exseq_R_Main_s_Time_Gain_Setting
+                0x0000281e        0x8 ./src-gen/indM.o
+ .text.effect_R_Main_s_Time_Gain_Setting_tr0
+                0x00002826       0x10 ./src-gen/indM.o
+ .text.react_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_Close
+                0x00002836        0x8 ./src-gen/indM.o
+ .text.R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Safe_Close_react
+                0x0000283e       0x26 ./src-gen/indM.o
+ .text.R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Normal_Close_react
+                0x00002864       0x26 ./src-gen/indM.o
+ .text.exact_R_Handler_s_Time_Gain_Set_Handler_r_handler_s_waiting
+                0x0000288a        0xc ./src-gen/indM.o
+ .text.exseq_R_Handler_s_Time_Gain_Set_Handler_r_handler_s_waiting
+                0x00002896       0x10 ./src-gen/indM.o
+ .text.exseq_R_Handler_s_Time_Gain_Set_Handler_r_handler
+                0x000028a6       0x1a ./src-gen/indM.o
+ .text.exseq_R_Handler_s_Time_Gain_Set_Handler
+                0x000028c0        0x8 ./src-gen/indM.o
+ .text.exact_R_Handler_s_Rl_Measurement_Handler
+                0x000028c8        0xc ./src-gen/indM.o
+ .text.exseq_R_Handler_s_Rl_Measurement_Handler
+                0x000028d4       0x10 ./src-gen/indM.o
+ .text.exact_R_Handler_s_Ind_Measurement_Handler
+                0x000028e4        0xc ./src-gen/indM.o
+ .text.exseq_R_Handler_s_Ind_Measurement_Handler
+                0x000028f0       0x10 ./src-gen/indM.o
+ .text.exseq_R_Handler
+                0x00002900       0x32 ./src-gen/indM.o
+ .text.enact_R_Main_s_Rl_Measurement_R_Res_Med_s_Initilization
+                0x00002932       0x18 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Rl_Measurement_R_Res_Med_s_Initilization_default
+                0x0000294a       0x12 ./src-gen/indM.o
+ .text.react_R_Main_s_Rl_Measurement_R_Res_Med_Default
+                0x0000295c        0x8 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Rl_Measurement_R_Res_Med_Default
+                0x00002964        0x8 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Rl_Measurement_Default
+                0x0000296c        0x8 ./src-gen/indM.o
+ .text.R_Main_s_Port_Configuration_react
+                0x00002974       0x2c ./src-gen/indM.o
+ .text.enact_R_Main_s_Rl_Measurement_R_Res_Med_s_Control_and_RCalculation
+                0x000029a0       0x16 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Rl_Measurement_R_Res_Med_s_Control_and_RCalculation_default
+                0x000029b6       0x12 ./src-gen/indM.o
+ .text.R_Main_s_Rl_Measurement_R_Res_Med_s_Wait_react
+                0x000029c8       0x32 ./src-gen/indM.o
+ .text.enact_R_Main_s_Rl_Measurement_R_Res_Med_s_Close
+                0x000029fa        0xe ./src-gen/indM.o
+ .text.enseq_R_Main_s_Rl_Measurement_R_Res_Med_s_Close_default
+                0x00002a08       0x12 ./src-gen/indM.o
+ .text.effect_R_Main_s_Rl_Measurement_R_Res_Med__choice_0_tr1
+                0x00002a1a        0x8 ./src-gen/indM.o
+ .text.react_R_Main_s_Rl_Measurement_R_Res_Med__choice_0
+                0x00002a22       0x1a ./src-gen/indM.o
+ .text.R_Main_s_Rl_Measurement_R_Res_Med_s_Control_and_RCalculation_react
+                0x00002a3c       0x20 ./src-gen/indM.o
+ .text.enact_R_Handler_s_Rl_Measurement_Handler
+                0x00002a5c       0x18 ./src-gen/indM.o
+ .text.enseq_R_Handler_s_Rl_Measurement_Handler_default
+                0x00002a74       0x12 ./src-gen/indM.o
+ *fill*         0x00002a86        0x2 
+ .text.enact_R_Handler_s_Ind_Measurement_Handler
+                0x00002a88       0x1c ./src-gen/indM.o
+ .text.enseq_R_Handler_s_Ind_Measurement_Handler_default
+                0x00002aa4       0x12 ./src-gen/indM.o
+ *fill*         0x00002ab6        0x2 
+ .text.enact_R_Handler_s_Time_Gain_Set_Handler_r_handler_s_waiting
+                0x00002ab8       0x14 ./src-gen/indM.o
+ .text.enseq_R_Handler_s_Time_Gain_Set_Handler_r_handler_s_waiting_default
+                0x00002acc       0x12 ./src-gen/indM.o
+ .text.react_R_Handler_s_Time_Gain_Set_Handler_r_handler__entry_Default
+                0x00002ade        0x8 ./src-gen/indM.o
+ .text.enseq_R_Handler_s_Time_Gain_Set_Handler_r_handler_default
+                0x00002ae6        0x8 ./src-gen/indM.o
+ .text.enseq_R_Handler_s_Time_Gain_Set_Handler_default
+                0x00002aee        0x8 ./src-gen/indM.o
+ .text.enact_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Setting
+                0x00002af6       0x28 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Setting_default
+                0x00002b1e       0x12 ./src-gen/indM.o
+ .text.react_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_Time_Start
+                0x00002b30        0x8 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_Time_Start
+                0x00002b38        0x8 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Time_Gain_Setting_Time_Start
+                0x00002b40        0x8 ./src-gen/indM.o
+ .text.R_Main_s_Rl_Measurement_R_Res_Med_s_Close_react
+                0x00002b48       0x42 ./src-gen/indM.o
+ .text.effect_R_Main_s_Time_Gain_Setting_R_Time_Gain_set__choice_1_tr1
+                0x00002b8a        0x8 ./src-gen/indM.o
+ .text.enact_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Safe_Close
+                0x00002b92        0xc ./src-gen/indM.o
+ .text.enseq_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Safe_Close_default
+                0x00002b9e       0x12 ./src-gen/indM.o
+ .text.effect_R_Main_s_Time_Gain_Setting_R_Time_Gain_set__choice_0_tr0
+                0x00002bb0        0x8 ./src-gen/indM.o
+ .text.enact_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Normal_Close
+                0x00002bb8       0x10 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Normal_Close_default
+                0x00002bc8       0x12 ./src-gen/indM.o
+ .text.effect_R_Main_s_Time_Gain_Setting_R_Time_Gain_set__choice_1_tr0
+                0x00002bda        0x8 ./src-gen/indM.o
+ .text.react_R_Main_s_Time_Gain_Setting_R_Time_Gain_set__choice_1
+                0x00002be2       0x1a ./src-gen/indM.o
+ .text.effect_R_Main_s_Time_Gain_Setting_R_Time_Gain_set__choice_0_tr1
+                0x00002bfc        0x8 ./src-gen/indM.o
+ .text.react_R_Main_s_Time_Gain_Setting_R_Time_Gain_set__choice_0
+                0x00002c04       0x1a ./src-gen/indM.o
+ .text.R_Main_s_Time_Gain_Setting_R_Time_Gain_set_s_Setting_react
+                0x00002c1e       0x28 ./src-gen/indM.o
+ .text.R_Main_s_Ind_Measurement_R_Main_Measurement_s_Wait_User_react
+                0x00002c46       0x38 ./src-gen/indM.o
+ .text.enact_R_Main_s_Ind_Measurement_R_Main_Measurement_s_Data_Processing
+                0x00002c7e       0x14 ./src-gen/indM.o
+ .text.enseq_R_Main_s_Ind_Measurement_R_Main_Measurement_s_Data_Processing_default
+                0x00002c92       0x12 ./src-gen/indM.o
+ .text.R_Main_s_Ind_Measurement_R_Main_Measurement_s_Wait_New_data_react
+                0x00002ca4       0x38 ./src-gen/indM.o
+ .text.R_Handler_s_Ind_Measurement_Handler_react
+                0x00002cdc       0x3e ./src-gen/indM.o
+ .text.indM_init
+                0x00002d1a       0x5a ./src-gen/indM.o
+                0x00002d1a                indM_init
+ .text.indM_enter
+                0x00002d74       0x24 ./src-gen/indM.o
+                0x00002d74                indM_enter
+ .text.indM_exit
+                0x00002d98       0x24 ./src-gen/indM.o
+                0x00002d98                indM_exit
+ .text.indM_is_active
+                0x00002dbc       0x22 ./src-gen/indM.o
+                0x00002dbc                indM_is_active
+ .text.indM_is_final
+                0x00002dde        0x4 ./src-gen/indM.o
+                0x00002dde                indM_is_final
+ .text.indM_raise_time_event
+                0x00002de2       0x12 ./src-gen/indM.o
+                0x00002de2                indM_raise_time_event
+ .text.indM_is_state_active
+                0x00002df4      0x124 ./src-gen/indM.o
+                0x00002df4                indM_is_state_active
+ .text.R_Handler_s_Null_Handler_react
+                0x00002f18       0x2a ./src-gen/indM.o
+ .text.R_Handler_s_Time_Gain_Set_Handler_react
+                0x00002f42       0x42 ./src-gen/indM.o
+ .text.R_Handler_s_Time_Gain_Set_Handler_r_handler_s_waiting_react
+                0x00002f84       0x2c ./src-gen/indM.o
+ .text.R_Handler_s_Time_Gain_Set_Handler_r_handler_s_end_time_react
+                0x00002fb0       0x16 ./src-gen/indM.o
+ .text.R_Handler_s_Rl_Measurement_Handler_react
+                0x00002fc6       0x56 ./src-gen/indM.o
+ .text.indM_run_cycle
+                0x0000301c      0x13c ./src-gen/indM.o
+                0x0000301c                indM_run_cycle
+ .text.indM_raise_play
+                0x00003158        0x8 ./src-gen/indM.o
+                0x00003158                indM_raise_play
+ .text.indM_raise_stop
+                0x00003160        0x8 ./src-gen/indM.o
+                0x00003160                indM_raise_stop
+ .text.indM_get_conf_Ready
+                0x00003168        0x4 ./src-gen/indM.o
+                0x00003168                indM_get_conf_Ready
+ .text.indM_set_conf_Ready
+                0x0000316c        0x4 ./src-gen/indM.o
+                0x0000316c                indM_set_conf_Ready
+ .text.indM_get_sp_Vref
+                0x00003170        0x4 ./src-gen/indM.o
+                0x00003170                indM_get_sp_Vref
+ .text.indM_set_sp_Vref
+                0x00003174        0x4 ./src-gen/indM.o
+                0x00003174                indM_set_sp_Vref
+ .text.indM_get_sp_v_gate
+                0x00003178        0x4 ./src-gen/indM.o
+                0x00003178                indM_get_sp_v_gate
+ .text.indM_set_sp_v_gate
+                0x0000317c        0x4 ./src-gen/indM.o
+                0x0000317c                indM_set_sp_v_gate
+ .text.indM_get_sp_data
+                0x00003180        0x4 ./src-gen/indM.o
+                0x00003180                indM_get_sp_data
+ .text.indM_set_sp_data
+                0x00003184        0x4 ./src-gen/indM.o
+                0x00003184                indM_set_sp_data
+ .text.indM_get_sp_R
+                0x00003188        0x4 ./src-gen/indM.o
+                0x00003188                indM_get_sp_R
+ .text.indM_set_sp_R
+                0x0000318c        0x4 ./src-gen/indM.o
+                0x0000318c                indM_set_sp_R
+ .text.indM_get_runs
+                0x00003190        0x4 ./src-gen/indM.o
+                0x00003190                indM_get_runs
+ .text.indM_set_runs
+                0x00003194        0x4 ./src-gen/indM.o
+                0x00003194                indM_set_runs
+ .text.indM_get_f_res_configured
+                0x00003198        0x6 ./src-gen/indM.o
+                0x00003198                indM_get_f_res_configured
+ .text.indM_set_f_res_configured
+                0x0000319e        0x6 ./src-gen/indM.o
+                0x0000319e                indM_set_f_res_configured
+ .text.indM_get_n_i
+                0x000031a4        0x4 ./src-gen/indM.o
+                0x000031a4                indM_get_n_i
+ .text.indM_set_n_i
+                0x000031a8        0x4 ./src-gen/indM.o
+                0x000031a8                indM_set_n_i
+ .text.indM_get_n_f
+                0x000031ac        0x4 ./src-gen/indM.o
+                0x000031ac                indM_get_n_f
+ .text.indM_set_n_f
+                0x000031b0        0x4 ./src-gen/indM.o
+                0x000031b0                indM_set_n_f
+ .text.indM_get_n_samples
+                0x000031b4        0x4 ./src-gen/indM.o
+                0x000031b4                indM_get_n_samples
+ .text.indM_set_n_samples
+                0x000031b8        0x4 ./src-gen/indM.o
+                0x000031b8                indM_set_n_samples
+ .text.indM_get_f_ireach
+                0x000031bc        0x6 ./src-gen/indM.o
+                0x000031bc                indM_get_f_ireach
+ .text.indM_set_f_ireach
+                0x000031c2        0x6 ./src-gen/indM.o
+                0x000031c2                indM_set_f_ireach
+ .text.indM_get_wrongSetting
+                0x000031c8        0x6 ./src-gen/indM.o
+                0x000031c8                indM_get_wrongSetting
+ .text.indM_set_wrongSetting
+                0x000031ce        0x6 ./src-gen/indM.o
+                0x000031ce                indM_set_wrongSetting
+ .text.indM_get_gain_set
+                0x000031d4        0x6 ./src-gen/indM.o
+                0x000031d4                indM_get_gain_set
+ .text.indM_set_gain_set
+                0x000031da        0x6 ./src-gen/indM.o
+                0x000031da                indM_set_gain_set
+ .text.indM_get_full_buffer
+                0x000031e0        0x6 ./src-gen/indM.o
+                0x000031e0                indM_get_full_buffer
+ .text.indM_set_full_buffer
+                0x000031e6        0x6 ./src-gen/indM.o
+                0x000031e6                indM_set_full_buffer
+ .text.exit     0x000031ec       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+                0x000031ec                exit
+ .text.__libc_init_array
+                0x0000320c       0x48 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+                0x0000320c                __libc_init_array
+ .text.memset   0x00003254       0x94 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+                0x00003254                memset
+ .text.startup.register_fini
+                0x000032e8       0x14 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x000032fc       0xe8 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+                0x000032fc                __call_exitprocs
+ .text.atexit   0x000033e4        0xc c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+                0x000033e4                atexit
+ .text.__libc_fini_array
+                0x000033f0       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+                0x000033f0                __libc_fini_array
+ .text.__retarget_lock_init
+                0x00003424        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00003424                __retarget_lock_init
+ .text.__retarget_lock_init_recursive
+                0x00003428        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00003428                __retarget_lock_init_recursive
+ .text.__retarget_lock_close
+                0x0000342c        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x0000342c                __retarget_lock_close
+ .text.__retarget_lock_close_recursive
+                0x00003430        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00003430                __retarget_lock_close_recursive
+ .text.__retarget_lock_acquire
+                0x00003434        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00003434                __retarget_lock_acquire
+ .text.__retarget_lock_acquire_recursive
+                0x00003438        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00003438                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_try_acquire
+                0x0000343c        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x0000343c                __retarget_lock_try_acquire
+ .text.__retarget_lock_try_acquire_recursive
+                0x00003440        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00003440                __retarget_lock_try_acquire_recursive
+ .text.__retarget_lock_release
+                0x00003444        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00003444                __retarget_lock_release
+ .text.__retarget_lock_release_recursive
+                0x00003448        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00003448                __retarget_lock_release_recursive
+ .text.__register_exitproc
+                0x0000344c       0xc0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+                0x0000344c                __register_exitproc
+ *fill*         0x0000350c        0x4 
+ .text.floor    0x00003510      0x110 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_floor.o)
+                0x00003510                floor
+ .text.pow      0x00003620      0x338 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o)
+                0x00003620                pow
+ .text.__ieee754_pow
+                0x00003958      0xab8 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o)
+                0x00003958                __ieee754_pow
+ .text.__ieee754_sqrt
+                0x00004410      0x194 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_sqrt.o)
+                0x00004410                __ieee754_sqrt
+ .text.fabs     0x000045a4       0x14 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_fabs.o)
+                0x000045a4                fabs
+ .text.finite   0x000045b8       0x10 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_finite.o)
+                0x000045b8                finite
+ .text.matherr  0x000045c8        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_matherr.o)
+                0x000045c8                matherr
+ *fill*         0x000045cc        0x4 
+ .text.nan      0x000045d0       0x10 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_nan.o)
+                0x000045d0                nan
+ .text.rint     0x000045e0      0x110 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_rint.o)
+                0x000045e0                rint
+ .text.scalbn   0x000046f0      0x114 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_scalbn.o)
+                0x000046f0                scalbn
+ .text.copysign
+                0x00004804       0x1c c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_copysign.o)
+                0x00004804                copysign
+ .text.__errno  0x00004820        0xc c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-errno.o)
+                0x00004820                __errno
+ .text.FPUEnable
+                0x0000482c       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                0x0000482c                FPUEnable
+ .text.FPUDisable
+                0x0000483c       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                0x0000483c                FPUDisable
+ .text.FPUStackingEnable
+                0x0000484c       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                0x0000484c                FPUStackingEnable
+ .text.FPULazyStackingEnable
+                0x00004860       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                0x00004860                FPULazyStackingEnable
+ .text.FPUStackingDisable
+                0x00004870       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                0x00004870                FPUStackingDisable
+ .text.FPUHalfPrecisionModeSet
+                0x00004880       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                0x00004880                FPUHalfPrecisionModeSet
+ .text.FPUNaNModeSet
+                0x00004894       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                0x00004894                FPUNaNModeSet
+ .text.FPUFlushToZeroModeSet
+                0x000048a8       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                0x000048a8                FPUFlushToZeroModeSet
+ .text.FPURoundingModeSet
+                0x000048bc       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                0x000048bc                FPURoundingModeSet
+ .text._GPIOIntNumberGet
+                0x000048d0       0x48 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+ .text.GPIODirModeSet
+                0x00004918       0x2e C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004918                GPIODirModeSet
+ .text.GPIODirModeGet
+                0x00004946       0x24 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004946                GPIODirModeGet
+ .text.GPIOIntTypeSet
+                0x0000496a       0x5a C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x0000496a                GPIOIntTypeSet
+ .text.GPIOIntTypeGet
+                0x000049c4       0x4a C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x000049c4                GPIOIntTypeGet
+ .text.GPIOPadConfigSet
+                0x00004a0e      0x130 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004a0e                GPIOPadConfigSet
+ .text.GPIOPadConfigGet
+                0x00004b3e       0xc4 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004b3e                GPIOPadConfigGet
+ .text.GPIOIntEnable
+                0x00004c02        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004c02                GPIOIntEnable
+ .text.GPIOIntDisable
+                0x00004c0e        0xe C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004c0e                GPIOIntDisable
+ .text.GPIOIntStatus
+                0x00004c1c        0xe C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004c1c                GPIOIntStatus
+ .text.GPIOIntClear
+                0x00004c2a        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004c2a                GPIOIntClear
+ .text.GPIOIntRegister
+                0x00004c30       0x1a C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004c30                GPIOIntRegister
+ .text.GPIOIntUnregister
+                0x00004c4a       0x16 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004c4a                GPIOIntUnregister
+ .text.GPIOIntRegisterPin
+                0x00004c60       0x1e C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004c60                GPIOIntRegisterPin
+ .text.GPIOIntUnregisterPin
+                0x00004c7e       0x1a C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004c7e                GPIOIntUnregisterPin
+ .text.GPIOPinRead
+                0x00004c98        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004c98                GPIOPinRead
+ .text.GPIOPinWrite
+                0x00004c9e        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004c9e                GPIOPinWrite
+ .text.GPIOPinTypeADC
+                0x00004ca4       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004ca4                GPIOPinTypeADC
+ .text.GPIOPinTypeCAN
+                0x00004cc0       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004cc0                GPIOPinTypeCAN
+ .text.GPIOPinTypeComparator
+                0x00004cdc       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004cdc                GPIOPinTypeComparator
+ .text.GPIOPinTypeComparatorOutput
+                0x00004cf8       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004cf8                GPIOPinTypeComparatorOutput
+ .text.GPIOPinTypeDIVSCLK
+                0x00004d14       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004d14                GPIOPinTypeDIVSCLK
+ .text.GPIOPinTypeEPI
+                0x00004d30       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004d30                GPIOPinTypeEPI
+ .text.GPIOPinTypeEthernetLED
+                0x00004d4c       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004d4c                GPIOPinTypeEthernetLED
+ .text.GPIOPinTypeEthernetMII
+                0x00004d68       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004d68                GPIOPinTypeEthernetMII
+ .text.GPIOPinTypeGPIOInput
+                0x00004d84       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004d84                GPIOPinTypeGPIOInput
+ .text.GPIOPinTypeGPIOOutput
+                0x00004da0       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004da0                GPIOPinTypeGPIOOutput
+ .text.GPIOPinTypeGPIOOutputOD
+                0x00004dbc       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004dbc                GPIOPinTypeGPIOOutputOD
+ .text.GPIOPinTypeHibernateRTCCLK
+                0x00004dd8       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004dd8                GPIOPinTypeHibernateRTCCLK
+ .text.GPIOPinTypeI2C
+                0x00004df4       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004df4                GPIOPinTypeI2C
+ .text.GPIOPinTypeI2CSCL
+                0x00004e10       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004e10                GPIOPinTypeI2CSCL
+ .text.GPIOPinTypeLCD
+                0x00004e2c       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004e2c                GPIOPinTypeLCD
+ .text.GPIOPinTypeOneWire
+                0x00004e48       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004e48                GPIOPinTypeOneWire
+ .text.GPIOPinTypePWM
+                0x00004e64       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004e64                GPIOPinTypePWM
+ .text.GPIOPinTypeQEI
+                0x00004e80       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004e80                GPIOPinTypeQEI
+ .text.GPIOPinTypeSSI
+                0x00004e9c       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004e9c                GPIOPinTypeSSI
+ .text.GPIOPinTypeTimer
+                0x00004eb8       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004eb8                GPIOPinTypeTimer
+ .text.GPIOPinTypeTrace
+                0x00004ed4       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004ed4                GPIOPinTypeTrace
+ .text.GPIOPinTypeUART
+                0x00004ef0       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004ef0                GPIOPinTypeUART
+ .text.GPIOPinTypeUSBAnalog
+                0x00004f0c       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004f0c                GPIOPinTypeUSBAnalog
+ .text.GPIOPinTypeUSBDigital
+                0x00004f28       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004f28                GPIOPinTypeUSBDigital
+ .text.GPIOPinTypeWakeHigh
+                0x00004f44       0x1e C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004f44                GPIOPinTypeWakeHigh
+ .text.GPIOPinTypeWakeLow
+                0x00004f62       0x1e C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004f62                GPIOPinTypeWakeLow
+ .text.GPIOPinWakeStatus
+                0x00004f80        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004f80                GPIOPinWakeStatus
+ *fill*         0x00004f86        0x2 
+ .text.GPIOPinConfigure
+                0x00004f88       0x4c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004f88                GPIOPinConfigure
+ .text.GPIODMATriggerEnable
+                0x00004fd4        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004fd4                GPIODMATriggerEnable
+ .text.GPIODMATriggerDisable
+                0x00004fe0        0xe C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004fe0                GPIODMATriggerDisable
+ .text.GPIOADCTriggerEnable
+                0x00004fee        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004fee                GPIOADCTriggerEnable
+ .text.GPIOADCTriggerDisable
+                0x00004ffa        0xe C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+                0x00004ffa                GPIOADCTriggerDisable
+ .text._IntDefaultHandler
+                0x00005008        0x2 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .text.IntMasterEnable
+                0x0000500a        0xe C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x0000500a                IntMasterEnable
+ .text.IntMasterDisable
+                0x00005018        0xe C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x00005018                IntMasterDisable
+ *fill*         0x00005026        0x2 
+ .text.IntRegister
+                0x00005028       0x34 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x00005028                IntRegister
+ .text.IntUnregister
+                0x0000505c       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x0000505c                IntUnregister
+ .text.IntPriorityGroupingSet
+                0x00005070       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x00005070                IntPriorityGroupingSet
+ .text.IntPriorityGroupingGet
+                0x0000508c       0x24 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x0000508c                IntPriorityGroupingGet
+ .text.IntPrioritySet
+                0x000050b0       0x2c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x000050b0                IntPrioritySet
+ .text.IntPriorityGet
+                0x000050dc       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x000050dc                IntPriorityGet
+ .text.IntEnable
+                0x000050f8       0x60 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x000050f8                IntEnable
+ .text.IntDisable
+                0x00005158       0x60 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x00005158                IntDisable
+ .text.IntIsEnabled
+                0x000051b8       0x64 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x000051b8                IntIsEnabled
+ .text.IntPendSet
+                0x0000521c       0x50 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x0000521c                IntPendSet
+ .text.IntPendClear
+                0x0000526c       0x40 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x0000526c                IntPendClear
+ .text.IntPriorityMaskSet
+                0x000052ac        0x4 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x000052ac                IntPriorityMaskSet
+ .text.IntPriorityMaskGet
+                0x000052b0        0x4 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x000052b0                IntPriorityMaskGet
+ .text.IntTrigger
+                0x000052b4        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+                0x000052b4                IntTrigger
+ .text.MPUEnable
+                0x000052c0       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+                0x000052c0                MPUEnable
+ .text.MPUDisable
+                0x000052d0       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+                0x000052d0                MPUDisable
+ .text.MPURegionCountGet
+                0x000052e0       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+                0x000052e0                MPURegionCountGet
+ .text.MPURegionEnable
+                0x000052f0       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+                0x000052f0                MPURegionEnable
+ .text.MPURegionDisable
+                0x00005304       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+                0x00005304                MPURegionDisable
+ .text.MPURegionSet
+                0x00005318       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+                0x00005318                MPURegionSet
+ .text.MPURegionGet
+                0x00005334       0x20 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+                0x00005334                MPURegionGet
+ .text.MPUIntRegister
+                0x00005354       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+                0x00005354                MPUIntRegister
+ .text.MPUIntUnregister
+                0x00005368       0x12 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+                0x00005368                MPUIntUnregister
+ *fill*         0x0000537a        0x2 
+ .text._SSIIntNumberGet
+                0x0000537c       0x44 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+ .text.SSIConfigSetExpClk
+                0x000053c0       0x3c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x000053c0                SSIConfigSetExpClk
+ .text.SSIEnable
+                0x000053fc        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x000053fc                SSIEnable
+ .text.SSIDisable
+                0x00005406        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x00005406                SSIDisable
+ .text.SSIIntRegister
+                0x00005410       0x1a C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x00005410                SSIIntRegister
+ .text.SSIIntUnregister
+                0x0000542a       0x16 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x0000542a                SSIIntUnregister
+ .text.SSIIntEnable
+                0x00005440        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x00005440                SSIIntEnable
+ .text.SSIIntDisable
+                0x00005448        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x00005448                SSIIntDisable
+ .text.SSIIntStatus
+                0x00005452        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x00005452                SSIIntStatus
+ .text.SSIIntClear
+                0x0000545c        0x4 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x0000545c                SSIIntClear
+ .text.SSIDataPut
+                0x00005460        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x00005460                SSIDataPut
+ .text.SSIDataPutNonBlocking
+                0x0000546a       0x12 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x0000546a                SSIDataPutNonBlocking
+ .text.SSIDataGet
+                0x0000547c        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x0000547c                SSIDataGet
+ .text.SSIDataGetNonBlocking
+                0x00005488       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x00005488                SSIDataGetNonBlocking
+ .text.SSIDMAEnable
+                0x0000549c        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x0000549c                SSIDMAEnable
+ .text.SSIDMADisable
+                0x000054a4        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x000054a4                SSIDMADisable
+ .text.SSIBusy  0x000054ae        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x000054ae                SSIBusy
+ .text.SSIClockSourceSet
+                0x000054b6        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x000054b6                SSIClockSourceSet
+ .text.SSIClockSourceGet
+                0x000054bc        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x000054bc                SSIClockSourceGet
+ .text.SSIAdvModeSet
+                0x000054c2        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x000054c2                SSIAdvModeSet
+ .text.SSIAdvDataPutFrameEnd
+                0x000054ce       0x12 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x000054ce                SSIAdvDataPutFrameEnd
+ .text.SSIAdvDataPutFrameEndNonBlocking
+                0x000054e0       0x1a C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x000054e0                SSIAdvDataPutFrameEndNonBlocking
+ .text.SSIAdvFrameHoldEnable
+                0x000054fa        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x000054fa                SSIAdvFrameHoldEnable
+ .text.SSIAdvFrameHoldDisable
+                0x00005504        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+                0x00005504                SSIAdvFrameHoldDisable
+ *fill*         0x0000550e        0x2 
+ .text._SysCtlMemTimingGet
+                0x00005510       0x24 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+ .text.SysCtlSRAMSizeGet
+                0x00005534       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005534                SysCtlSRAMSizeGet
+ .text.SysCtlFlashSizeGet
+                0x00005544       0x3c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005544                SysCtlFlashSizeGet
+ .text.SysCtlFlashSectorSizeGet
+                0x00005580       0x38 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005580                SysCtlFlashSectorSizeGet
+ .text.SysCtlPeripheralPresent
+                0x000055b8       0x26 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000055b8                SysCtlPeripheralPresent
+ .text.SysCtlPeripheralReady
+                0x000055de       0x26 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000055de                SysCtlPeripheralReady
+ .text.SysCtlPeripheralPowerOn
+                0x00005604       0x22 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005604                SysCtlPeripheralPowerOn
+ .text.SysCtlPeripheralPowerOff
+                0x00005626       0x22 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005626                SysCtlPeripheralPowerOff
+ .text.SysCtlPeripheralReset
+                0x00005648       0x3a C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005648                SysCtlPeripheralReset
+ .text.SysCtlPeripheralEnable
+                0x00005682       0x22 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005682                SysCtlPeripheralEnable
+ .text.SysCtlPeripheralDisable
+                0x000056a4       0x22 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000056a4                SysCtlPeripheralDisable
+ .text.SysCtlPeripheralSleepEnable
+                0x000056c6       0x22 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000056c6                SysCtlPeripheralSleepEnable
+ .text.SysCtlPeripheralSleepDisable
+                0x000056e8       0x22 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000056e8                SysCtlPeripheralSleepDisable
+ .text.SysCtlPeripheralDeepSleepEnable
+                0x0000570a       0x22 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x0000570a                SysCtlPeripheralDeepSleepEnable
+ .text.SysCtlPeripheralDeepSleepDisable
+                0x0000572c       0x22 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x0000572c                SysCtlPeripheralDeepSleepDisable
+ *fill*         0x0000574e        0x2 
+ .text.SysCtlPeripheralClockGating
+                0x00005750       0x48 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005750                SysCtlPeripheralClockGating
+ .text.SysCtlIntRegister
+                0x00005798       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005798                SysCtlIntRegister
+ .text.SysCtlIntUnregister
+                0x000057ac       0x12 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000057ac                SysCtlIntUnregister
+ *fill*         0x000057be        0x2 
+ .text.SysCtlIntEnable
+                0x000057c0       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000057c0                SysCtlIntEnable
+ .text.SysCtlIntDisable
+                0x000057d0       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000057d0                SysCtlIntDisable
+ .text.SysCtlIntClear
+                0x000057e0        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000057e0                SysCtlIntClear
+ .text.SysCtlIntStatus
+                0x000057ec       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000057ec                SysCtlIntStatus
+ .text.SysCtlLDOSleepSet
+                0x00005800        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005800                SysCtlLDOSleepSet
+ .text.SysCtlLDOSleepGet
+                0x0000580c        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x0000580c                SysCtlLDOSleepGet
+ .text.SysCtlLDODeepSleepSet
+                0x00005818        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005818                SysCtlLDODeepSleepSet
+ .text.SysCtlLDODeepSleepGet
+                0x00005824        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005824                SysCtlLDODeepSleepGet
+ .text.SysCtlSleepPowerSet
+                0x00005830        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005830                SysCtlSleepPowerSet
+ .text.SysCtlDeepSleepPowerSet
+                0x0000583c        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x0000583c                SysCtlDeepSleepPowerSet
+ .text.SysCtlReset
+                0x00005848       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005848                SysCtlReset
+ .text.SysCtlSleep
+                0x00005858        0x4 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005858                SysCtlSleep
+ .text.SysCtlDeepSleep
+                0x0000585c       0x20 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x0000585c                SysCtlDeepSleep
+ .text.SysCtlResetCauseGet
+                0x0000587c        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x0000587c                SysCtlResetCauseGet
+ .text.SysCtlResetCauseClear
+                0x00005888       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005888                SysCtlResetCauseClear
+ .text.SysCtlDelay
+                0x00005898        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005898                SysCtlDelay
+ .text.SysCtlMOSCConfigSet
+                0x000058a0        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000058a0                SysCtlMOSCConfigSet
+ .text.SysCtlPIOSCCalibrate
+                0x000058ac       0x48 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000058ac                SysCtlPIOSCCalibrate
+ .text.SysCtlResetBehaviorSet
+                0x000058f4        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x000058f4                SysCtlResetBehaviorSet
+ .text.SysCtlResetBehaviorGet
+                0x00005900        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005900                SysCtlResetBehaviorGet
+ .text.SysCtlClockFreqSet
+                0x0000590c      0x248 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x0000590c                SysCtlClockFreqSet
+ .text.SysCtlClockSet
+                0x00005b54      0x11c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005b54                SysCtlClockSet
+ .text.SysCtlClockGet
+                0x00005c70      0x12c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005c70                SysCtlClockGet
+ .text.SysCtlDeepSleepClockSet
+                0x00005d9c        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005d9c                SysCtlDeepSleepClockSet
+ .text.SysCtlDeepSleepClockConfigSet
+                0x00005da8       0x60 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005da8                SysCtlDeepSleepClockConfigSet
+ .text.SysCtlPWMClockSet
+                0x00005e08       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005e08                SysCtlPWMClockSet
+ .text.SysCtlPWMClockGet
+                0x00005e1c       0x18 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005e1c                SysCtlPWMClockGet
+ .text.SysCtlGPIOAHBEnable
+                0x00005e34       0x18 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005e34                SysCtlGPIOAHBEnable
+ .text.SysCtlGPIOAHBDisable
+                0x00005e4c       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005e4c                SysCtlGPIOAHBDisable
+ .text.SysCtlUSBPLLEnable
+                0x00005e68       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005e68                SysCtlUSBPLLEnable
+ .text.SysCtlUSBPLLDisable
+                0x00005e78       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005e78                SysCtlUSBPLLDisable
+ .text.SysCtlVoltageEventConfig
+                0x00005e88        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005e88                SysCtlVoltageEventConfig
+ .text.SysCtlVoltageEventStatus
+                0x00005e94        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005e94                SysCtlVoltageEventStatus
+ .text.SysCtlVoltageEventClear
+                0x00005ea0       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005ea0                SysCtlVoltageEventClear
+ .text.SysCtlVCOGet
+                0x00005eb0       0x78 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005eb0                SysCtlVCOGet
+ .text.SysCtlNMIStatus
+                0x00005f28        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005f28                SysCtlNMIStatus
+ .text.SysCtlNMIClear
+                0x00005f34       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005f34                SysCtlNMIClear
+ .text.SysCtlClockOutConfig
+                0x00005f44       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005f44                SysCtlClockOutConfig
+ .text.SysCtlAltClkConfig
+                0x00005f54        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+                0x00005f54                SysCtlAltClkConfig
+ .text.SysTickEnable
+                0x00005f60       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+                0x00005f60                SysTickEnable
+ .text.SysTickDisable
+                0x00005f70       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+                0x00005f70                SysTickDisable
+ .text.SysTickIntRegister
+                0x00005f80       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+                0x00005f80                SysTickIntRegister
+ .text.SysTickIntUnregister
+                0x00005f9c       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+                0x00005f9c                SysTickIntUnregister
+ .text.SysTickIntEnable
+                0x00005fb0       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+                0x00005fb0                SysTickIntEnable
+ .text.SysTickIntDisable
+                0x00005fc0       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+                0x00005fc0                SysTickIntDisable
+ .text.SysTickPeriodSet
+                0x00005fd0        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+                0x00005fd0                SysTickPeriodSet
+ .text.SysTickPeriodGet
+                0x00005fdc        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+                0x00005fdc                SysTickPeriodGet
+ .text.SysTickValueGet
+                0x00005fe8        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+                0x00005fe8                SysTickValueGet
+ .text._UARTIntNumberGet
+                0x00005ff4       0x44 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+ .text.UARTParityModeSet
+                0x00006038        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006038                UARTParityModeSet
+ .text.UARTParityModeGet
+                0x00006044        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006044                UARTParityModeGet
+ .text.UARTFIFOLevelSet
+                0x0000604c        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000604c                UARTFIFOLevelSet
+ .text.UARTFIFOLevelGet
+                0x00006052       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006052                UARTFIFOLevelGet
+ .text.UARTConfigGetExpClk
+                0x00006062       0x28 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006062                UARTConfigGetExpClk
+ .text.UARTEnable
+                0x0000608a       0x16 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000608a                UARTEnable
+ .text.UARTDisable
+                0x000060a0       0x1c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000060a0                UARTDisable
+ .text.UARTConfigSetExpClk
+                0x000060bc       0x48 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000060bc                UARTConfigSetExpClk
+ .text.UARTFIFOEnable
+                0x00006104        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006104                UARTFIFOEnable
+ .text.UARTFIFODisable
+                0x0000610e        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000610e                UARTFIFODisable
+ .text.UARTEnableSIR
+                0x00006118       0x12 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006118                UARTEnableSIR
+ .text.UARTDisableSIR
+                0x0000612a        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000612a                UARTDisableSIR
+ .text.UARTSmartCardEnable
+                0x00006134       0x16 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006134                UARTSmartCardEnable
+ .text.UARTSmartCardDisable
+                0x0000614a        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000614a                UARTSmartCardDisable
+ .text.UARTModemControlSet
+                0x00006154        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006154                UARTModemControlSet
+ .text.UARTModemControlClear
+                0x00006160        0xe C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006160                UARTModemControlClear
+ .text.UARTModemControlGet
+                0x0000616e        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000616e                UARTModemControlGet
+ .text.UARTModemStatusGet
+                0x00006176        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006176                UARTModemStatusGet
+ .text.UARTFlowControlSet
+                0x00006180        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006180                UARTFlowControlSet
+ .text.UARTFlowControlGet
+                0x0000618c        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000618c                UARTFlowControlGet
+ .text.UARTTxIntModeSet
+                0x00006194        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006194                UARTTxIntModeSet
+ .text.UARTTxIntModeGet
+                0x000061a0        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000061a0                UARTTxIntModeGet
+ .text.UARTCharsAvail
+                0x000061a8        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000061a8                UARTCharsAvail
+ .text.UARTSpaceAvail
+                0x000061b4        0xc C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000061b4                UARTSpaceAvail
+ .text.UARTCharGetNonBlocking
+                0x000061c0        0xe C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000061c0                UARTCharGetNonBlocking
+ .text.UARTCharGet
+                0x000061ce        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000061ce                UARTCharGet
+ .text.UARTCharPutNonBlocking
+                0x000061d8       0x10 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000061d8                UARTCharPutNonBlocking
+ .text.UARTCharPut
+                0x000061e8        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000061e8                UARTCharPut
+ .text.UARTBreakCtl
+                0x000061f2       0x16 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000061f2                UARTBreakCtl
+ .text.UARTBusy
+                0x00006208        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006208                UARTBusy
+ .text.UARTIntRegister
+                0x00006210       0x1a C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006210                UARTIntRegister
+ .text.UARTIntUnregister
+                0x0000622a       0x16 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000622a                UARTIntUnregister
+ .text.UARTIntEnable
+                0x00006240        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006240                UARTIntEnable
+ .text.UARTIntDisable
+                0x00006248        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006248                UARTIntDisable
+ .text.UARTIntStatus
+                0x00006252        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006252                UARTIntStatus
+ .text.UARTIntClear
+                0x0000625c        0x4 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000625c                UARTIntClear
+ .text.UARTDMAEnable
+                0x00006260        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006260                UARTDMAEnable
+ .text.UARTDMADisable
+                0x00006268        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006268                UARTDMADisable
+ .text.UARTRxErrorGet
+                0x00006272        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006272                UARTRxErrorGet
+ .text.UARTRxErrorClear
+                0x0000627a        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000627a                UARTRxErrorClear
+ .text.UARTClockSourceSet
+                0x00006280        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006280                UARTClockSourceSet
+ .text.UARTClockSourceGet
+                0x00006286        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x00006286                UARTClockSourceGet
+ .text.UART9BitEnable
+                0x0000628c        0xe C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000628c                UART9BitEnable
+ .text.UART9BitDisable
+                0x0000629a        0xe C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x0000629a                UART9BitDisable
+ .text.UART9BitAddrSet
+                0x000062a8        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000062a8                UART9BitAddrSet
+ .text.UART9BitAddrSend
+                0x000062b2       0x2c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000062b2                UART9BitAddrSend
+ .text.UARTLoopbackEnable
+                0x000062de        0xa C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+                0x000062de                UARTLoopbackEnable
+ .text.CPUcpsid
+                0x000062e8        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+                0x000062e8                CPUcpsid
+ .text.CPUprimask
+                0x000062f0        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+                0x000062f0                CPUprimask
+ .text.CPUcpsie
+                0x000062f6        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+                0x000062f6                CPUcpsie
+ .text.CPUwfi   0x000062fe        0x4 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+                0x000062fe                CPUwfi
+ .text.CPUbasepriSet
+                0x00006302        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+                0x00006302                CPUbasepriSet
+ .text.CPUbasepriGet
+                0x00006308        0x6 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+                0x00006308                CPUbasepriGet
+ *fill*         0x0000630e        0x2 
+ .text._exit    0x00006310        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+                0x00006310                _exit
+ *(.rodata)
+ *(.rodata*)
+ .rodata.D2     0x00006314        0x4 ./Control_Res.o
+                0x00006314                D2
+ .rodata.N1     0x00006318        0x4 ./Control_Res.o
+                0x00006318                N1
+ .rodata.N21    0x0000631c        0x4 ./Control_Res.o
+                0x0000631c                N21
+ .rodata.N22    0x00006320        0x4 ./Control_Res.o
+                0x00006320                N22
+ .rodata.Reset_Handler.str1.4
+                0x00006324        0xe ./startup_tm4c_gnu.o
+ *fill*         0x00006332        0x2 
+ .rodata.UARTgets.str1.4
+                0x00006334        0x7 ./uartstdio.o
+ *fill*         0x0000633b        0x1 
+ .rodata.UARTvprintf.str1.4
+                0x0000633c       0x1e ./uartstdio.o
+ *fill*         0x0000635a        0x2 
+ .rodata.g_ui32UARTBase
+                0x0000635c        0xc ./uartstdio.o
+ .rodata.g_ui32UARTPeriph
+                0x00006368        0xc ./uartstdio.o
+ .rodata.INDM_INDMINTERNAL_MAX_RUNS
+                0x00006374        0x4 ./src-gen/indM.o
+                0x00006374                INDM_INDMINTERNAL_MAX_RUNS
+ .rodata.INDM_INDMINTERNAL_PERIOD_SYSTICK_MAIN
+                0x00006378        0x4 ./src-gen/indM.o
+                0x00006378                INDM_INDMINTERNAL_PERIOD_SYSTICK_MAIN
+ .rodata.INDM_INDMINTERNAL_PERIOD_SYSTICK_RES
+                0x0000637c        0x4 ./src-gen/indM.o
+                0x0000637c                INDM_INDMINTERNAL_PERIOD_SYSTICK_RES
+ .rodata.INDM_INDMINTERNAL_PERIOD_SYSTICK_SET
+                0x00006380        0x4 ./src-gen/indM.o
+                0x00006380                INDM_INDMINTERNAL_PERIOD_SYSTICK_SET
+ .rodata.INDM_INDMINTERNAL_SAMPLING_PERIOD
+                0x00006384        0x4 ./src-gen/indM.o
+                0x00006384                INDM_INDMINTERNAL_SAMPLING_PERIOD
+ .rodata._global_impure_ptr
+                0x00006388        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+                0x00006388                _global_impure_ptr
+ .rodata.pow.str1.4
+                0x0000638c        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o)
+ .rodata.__ieee754_pow.str1.4
+                0x00006390        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o)
+                                  0x1 (size before relaxing)
+ .rodata.TWO52  0x00006390       0x10 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_rint.o)
+ .rodata.g_ppui32GPIOIntMapSnowflake
+                0x000063a0       0xd8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+ .rodata.g_pui32GPIOBaseAddrs
+                0x00006478       0x90 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+ .rodata.g_ppui32GPIOIntMapBlizzard
+                0x00006508       0xc0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+ .rodata.g_pui32Priority
+                0x000065c8       0x20 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .rodata.g_pui32Dii16Regs
+                0x000065e8       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .rodata.g_pui32PendRegs
+                0x000065fc       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .rodata.g_pui32Regs
+                0x00006610       0x9c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .rodata.g_pui32EnRegs
+                0x000066ac       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .rodata.g_pui32UnpendRegs
+                0x000066c0       0x14 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .rodata.g_ppui32SSIIntMap
+                0x000066d4       0x20 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+ .rodata.g_ppui32SSIIntMapSnowflake
+                0x000066f4       0x20 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+ .rodata.g_pppui32XTALtoVCO
+                0x00006714      0x1b0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+ .rodata.g_pui32VCOFrequencies
+                0x000068c4        0x8 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+ .rodata.g_sXTALtoMEMTIM
+                0x000068cc       0x30 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+ .rodata.g_pui32Xtals
+                0x000068fc       0x6c C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+ .rodata.g_ppui32UARTIntMap
+                0x00006968       0x40 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+ .rodata.g_ppui32UARTIntMapSnowflake
+                0x000069a8       0x40 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+ *(.init)
+ .init          0x000069e8        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x000069e8                _init
+ .init          0x000069ec        0x8 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.fini)
+ .fini          0x000069f4        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x000069f4                _fini
+ .fini          0x000069f8        0x8 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+                0x00006a00                . = ALIGN (0x4)
+
+.glue_7         0x00006a00        0x0
+ .glue_7        0x00006a00        0x0 linker stubs
+
+.glue_7t        0x00006a00        0x0
+ .glue_7t       0x00006a00        0x0 linker stubs
+
+.vfp11_veneer   0x00006a00        0x0
+ .vfp11_veneer  0x00006a00        0x0 linker stubs
+
+.v4_bx          0x00006a00        0x0
+ .v4_bx         0x00006a00        0x0 linker stubs
+
+.iplt           0x00006a00        0x0
+ .iplt          0x00006a00        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+
+.rel.dyn        0x00006a00        0x0
+ .rel.iplt      0x00006a00        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+
+.preinit_array  0x00006a00        0x0
+                0x00006a00                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x00006a00                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00006a00        0x8
+                0x00006a00                PROVIDE (__init_array_start, .)
+ *(SORT_BY_NAME(.init_array.*))
+ .init_array.00000
+                0x00006a00        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ *(.init_array*)
+ .init_array    0x00006a04        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                0x00006a08                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00006a08        0x4
+                0x00006a08                PROVIDE (__fini_array_start, .)
+ *(.fini_array*)
+ .fini_array    0x00006a08        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ *(SORT_BY_NAME(.fini_array.*))
+                0x00006a0c                PROVIDE (__fini_array_end, .)
+                0x00006a0c                _etext = .
+
+.stack          0x20000000      0x200
+                0x20000000                __stack_start__ = .
+                0x20000200                . = (. + STACK_SIZE)
+ *fill*         0x20000000      0x200 
+                0x20000200                . = ALIGN (0x4)
+                0x20000200                __stack_end__ = .
+
+.data           0x20000200      0x488 load address 0x00006a0c
+                0x00006a0c                __data_load = LOADADDR (.data)
+                0x20000200                __data_start = .
+ *(.data)
+ .data          0x20000200        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .data          0x20000200        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                0x20000200                __dso_handle
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .data          0x20000204        0x0 ./Control_Res.o
+ .data          0x20000204        0x0 ./Local_Average.o
+ .data          0x20000204        0x0 ./bsp.o
+ .data          0x20000204        0x0 ./indM_control_and_RCalculation.o
+ .data          0x20000204        0x0 ./indM_data_Processing.o
+ .data          0x20000204        0x0 ./indM_get_Data.o
+ .data          0x20000204        0x0 ./indM_get_Data_Array.o
+ .data          0x20000204        0x0 ./indM_normal_Close.o
+ .data          0x20000204        0x0 ./indM_port_configuration.o
+ .data          0x20000204        0x0 ./indM_res_Closing.o
+ .data          0x20000204        0x0 ./indM_res_Init.o
+ .data          0x20000204        0x0 ./indM_safe_Close.o
+ .data          0x20000204        0x0 ./indM_set_Time_Reference.o
+ .data          0x20000204        0x0 ./indM_setting.o
+ .data          0x20000204        0x0 ./indM_uART_routine.o
+ .data          0x20000204        0x0 ./least_square.o
+ .data          0x20000204        0x0 ./main.o
+ .data          0x20000204        0x0 ./startup_tm4c_gnu.o
+ .data          0x20000204        0x0 ./uartstdio.o
+ .data          0x20000204        0x0 ./src/sc_timer_service.o
+ .data          0x20000204        0x0 ./src-gen/indM.o
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_floor.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_sqrt.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_fabs.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_finite.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_lib_ver.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_matherr.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_nan.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_rint.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_scalbn.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_copysign.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_cmpdf2.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_unorddf2.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-errno.o)
+ .data          0x20000204        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+ .data          0x20000204        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+ .data          0x20000204        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .data          0x20000204        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+ .data          0x20000204        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+ .data          0x20000204        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+ .data          0x20000204        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+ .data          0x20000204        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+ .data          0x20000204        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .data          0x20000204        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.data*)
+ .data.aux_0    0x20000204        0x4 ./indM_setting.o
+                0x20000204                aux_0
+ .data.aux_1    0x20000208        0x4 ./indM_setting.o
+                0x20000208                aux_1
+ .data.Gain_OPA227
+                0x2000020c        0x4 ./main.o
+                0x2000020c                Gain_OPA227
+ .data.I_wished
+                0x20000210        0x4 ./main.o
+                0x20000210                I_wished
+ .data.K_L      0x20000214        0x4 ./main.o
+                0x20000214                K_L
+ .data.K_LR     0x20000218        0x4 ./main.o
+                0x20000218                K_LR
+ .data.K_R      0x2000021c        0x4 ./main.o
+                0x2000021c                K_R
+ .data.K_RR     0x20000220        0x4 ./main.o
+                0x20000220                K_RR
+ .data.K_RT     0x20000224        0x4 ./main.o
+                0x20000224                K_RT
+ .data.Rs       0x20000228        0x4 ./main.o
+                0x20000228                Rs
+ .data.T        0x2000022c        0x4 ./main.o
+                0x2000022c                T
+ .data.V_MAX_ADC
+                0x20000230        0x4 ./main.o
+                0x20000230                V_MAX_ADC
+ .data.V_MAX_DAC
+                0x20000234        0x4 ./main.o
+                0x20000234                V_MAX_DAC
+ .data.V_TH_FET
+                0x20000238        0x4 ./main.o
+                0x20000238                V_TH_FET
+ .data.V_th_ss  0x2000023c        0x4 ./main.o
+                0x2000023c                V_th_ss
+ .data.Vref_ss  0x20000240        0x4 ./main.o
+                0x20000240                Vref_ss
+ .data.pi       0x20000244        0x4 ./main.o
+                0x20000244                pi
+ .data.piR      0x20000248        0x4 ./main.o
+                0x20000248                piR
+ .data.step     0x2000024c        0x4 ./main.o
+                0x2000024c                step
+ .data._impure_ptr
+                0x20000250        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+                0x20000250                _impure_ptr
+ *fill*         0x20000254        0x4 
+ .data.impure_data
+                0x20000258      0x428 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+ .data.__atexit_recursive_mutex
+                0x20000680        0x4 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+                0x20000680                __atexit_recursive_mutex
+ .data.__fdlib_version
+                0x20000684        0x1 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_lib_ver.o)
+                0x20000684                __fdlib_version
+                0x20000688                . = ALIGN (0x4)
+ *fill*         0x20000685        0x3 
+                0x20000688                __data_end__ = .
+                0x20000688                _edata = __data_end__
+
+.igot.plt       0x20000688        0x0 load address 0x00006e94
+ .igot.plt      0x20000688        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+
+vtable          0x20000800      0x400 load address 0x00007400
+ vtable         0x20000800      0x400 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+
+.bss            0x20000c00     0x5ea8 load address 0x00007800
+                0x20000c00                __bss_start__ = .
+ *(.bss)
+ .bss           0x20000c00        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .bss           0x20000c00       0x1c c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .bss           0x20000c1c        0x0 ./Control_Res.o
+ .bss           0x20000c1c        0x0 ./Local_Average.o
+ .bss           0x20000c1c        0x0 ./bsp.o
+ .bss           0x20000c1c        0x0 ./indM_control_and_RCalculation.o
+ .bss           0x20000c1c        0x0 ./indM_data_Processing.o
+ .bss           0x20000c1c        0x0 ./indM_get_Data.o
+ .bss           0x20000c1c        0x0 ./indM_get_Data_Array.o
+ .bss           0x20000c1c        0x0 ./indM_normal_Close.o
+ .bss           0x20000c1c        0x0 ./indM_port_configuration.o
+ .bss           0x20000c1c        0x0 ./indM_res_Closing.o
+ .bss           0x20000c1c        0x0 ./indM_res_Init.o
+ .bss           0x20000c1c        0x0 ./indM_safe_Close.o
+ .bss           0x20000c1c        0x0 ./indM_set_Time_Reference.o
+ .bss           0x20000c1c        0x0 ./indM_setting.o
+ .bss           0x20000c1c        0x0 ./indM_uART_routine.o
+ .bss           0x20000c1c        0x0 ./least_square.o
+ .bss           0x20000c1c        0x0 ./main.o
+ .bss           0x20000c1c        0x0 ./startup_tm4c_gnu.o
+ .bss           0x20000c1c        0x0 ./uartstdio.o
+ .bss           0x20000c1c        0x0 ./src/sc_timer_service.o
+ .bss           0x20000c1c        0x0 ./src-gen/indM.o
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_floor.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-w_pow.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_pow.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-e_sqrt.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_fabs.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_finite.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_lib_ver.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_matherr.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_nan.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_rint.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_scalbn.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_copysign.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_unorddf2.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-errno.o)
+ .bss           0x20000c1c        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+ .bss           0x20000c1c        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+ .bss           0x20000c1c        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .bss           0x20000c1c        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+ .bss           0x20000c1c        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+ .bss           0x20000c1c        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+ .bss           0x20000c1c        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+ .bss           0x20000c1c        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+ .bss           0x20000c1c        0x0 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .bss           0x20000c1c        0x0 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.bss*)
+ .bss.sw_highcount.10291
+                0x20000c1c        0x4 ./bsp.o
+ .bss.sw_lowcount.10290
+                0x20000c20        0x4 ./bsp.o
+ .bss.sw_state.10289
+                0x20000c24        0x4 ./bsp.o
+ .bss.Resistance_aux
+                0x20000c28        0x4 ./indM_control_and_RCalculation.o
+                0x20000c28                Resistance_aux
+ .bss.count_prom
+                0x20000c2c        0x4 ./indM_control_and_RCalculation.o
+                0x20000c2c                count_prom
+ .bss.ss        0x20000c30        0x1 ./indM_control_and_RCalculation.o
+                0x20000c30                ss
+ *fill*         0x20000c31        0x3 
+ .bss.V_i       0x20000c34      0x258 ./indM_data_Processing.o
+                0x20000c34                V_i
+ .bss.array_index
+                0x20000e8c        0x4 ./indM_data_Processing.o
+                0x20000e8c                array_index
+ .bss.slopes    0x20000e90      0x258 ./indM_data_Processing.o
+                0x20000e90                slopes
+ .bss.sp_aux    0x200010e8        0x4 ./indM_data_Processing.o
+                0x200010e8                sp_aux
+ .bss.aux_f     0x200010ec      0xfa0 ./indM_setting.o
+                0x200010ec                aux_f
+ .bss.l_WrongSetting
+                0x2000208c        0x1 ./indM_setting.o
+                0x2000208c                l_WrongSetting
+ .bss.l_f_ireach
+                0x2000208d        0x1 ./indM_setting.o
+                0x2000208d                l_f_ireach
+ .bss.l_gain_set
+                0x2000208e        0x1 ./indM_setting.o
+                0x2000208e                l_gain_set
+ *fill*         0x2000208f        0x1 
+ .bss.puntero   0x20002090        0x4 ./indM_setting.o
+                0x20002090                puntero
+ .bss.command   0x20002094        0x1 ./indM_uART_routine.o
+                0x20002094                command
+ *fill*         0x20002095        0x3 
+ .bss.send_index
+                0x20002098        0x4 ./indM_uART_routine.o
+                0x20002098                send_index
+ .bss.NRO_SAMPLES
+                0x2000209c        0x4 ./main.o
+                0x2000209c                NRO_SAMPLES
+ .bss.Resistance
+                0x200020a0        0x4 ./main.o
+                0x200020a0                Resistance
+ .bss.Vref      0x200020a4        0x4 ./main.o
+                0x200020a4                Vref
+ .bss.n_f       0x200020a8        0x4 ./main.o
+                0x200020a8                n_f
+ .bss.n_i       0x200020ac        0x4 ./main.o
+                0x200020ac                n_i
+ .bss.timer_service
+                0x200020b0        0xc ./main.o
+ .bss.timers    0x200020bc       0x60 ./main.o
+ .bss.v_gate    0x2000211c       0x14 ./main.o
+                0x2000211c                v_gate
+ .bss.bLastWasCR.5755
+                0x20002130        0x1 ./uartstdio.o
+ *fill*         0x20002131        0x3 
+ .bss.g_ui32Base
+                0x20002134        0x4 ./uartstdio.o
+ *(COMMON)
+ COMMON         0x20002138       0x20 ./indM_control_and_RCalculation.o
+                0x20002138                V_R
+                0x2000213c                runs_R
+                0x20002140                V_L1
+                0x20002144                error
+                0x2000214c                v_gate_k
+                0x20002150                u
+ COMMON         0x20002158     0x27d8 ./indM_data_Processing.o
+                0x20002158                L_i_Ind
+                0x200023b0                I_R
+                0x20003418                current
+                0x20003544                V_L
+                0x200045ac                L_i_Current
+                0x20004804                inductance
+ COMMON         0x20004930        0x4 ./indM_get_Data_Array.o
+                0x20004930                counter
+ COMMON         0x20004934       0x20 ./least_square.o
+                0x20004934                t
+                0x20004938                A22
+                0x2000493c                det
+                0x20004940                A12
+                0x20004944                B2
+                0x20004948                I
+                0x2000494c                A11
+                0x20004950                B1
+ COMMON         0x20004954     0x2130 ./main.o
+                0x20004954                samp_R
+                0x200059bc                samp_L
+                0x20006a24                data
+                0x20006a2c                Gain_L
+                0x20006a30                offset
+                0x20006a38                ls
+                0x20006a80                Gain_R
+ COMMON         0x20006a84       0x21 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x20006a84                __lock___atexit_recursive_mutex
+                0x20006a88                __lock___arc4random_mutex
+                0x20006a8c                __lock___env_recursive_mutex
+                0x20006a90                __lock___sinit_recursive_mutex
+                0x20006a94                __lock___malloc_recursive_mutex
+                0x20006a98                __lock___at_quick_exit_mutex
+                0x20006a9c                __lock___dd_hash_mutex
+                0x20006aa0                __lock___tz_mutex
+                0x20006aa4                __lock___sfp_recursive_mutex
+                0x20006aa8                . = ALIGN (0x4)
+ *fill*         0x20006aa5        0x3 
+                0x20006aa8                _ebss = .
+                0x20006aa8                __bss_end__ = .
+                [!provide]                PROVIDE (end, _ebss)
+                [!provide]                PROVIDE (_end, _ebss)
+                [!provide]                PROVIDE (__end__, _ebss)
+
+.heap           0x20006aa8        0x0
+                0x20006aa8                __heap_start__ = .
+                0x20006aa8                . = (. + HEAP_SIZE)
+                0x20006aa8                . = ALIGN (0x4)
+                0x20006aa8                __heap_end__ = .
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+START GROUP
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a
+LOAD C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a
+END GROUP
+START GROUP
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libg.a
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a
+END GROUP
+START GROUP
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a
+END GROUP
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+LOAD c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+OUTPUT(prueba.out elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x22 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .ARM.attributes
+                0x00000022       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .ARM.attributes
+                0x00000076       0x39 ./Control_Res.o
+ .ARM.attributes
+                0x000000af       0x39 ./Local_Average.o
+ .ARM.attributes
+                0x000000e8       0x39 ./bsp.o
+ .ARM.attributes
+                0x00000121       0x39 ./indM_control_and_RCalculation.o
+ .ARM.attributes
+                0x0000015a       0x39 ./indM_data_Processing.o
+ .ARM.attributes
+                0x00000193       0x39 ./indM_get_Data.o
+ .ARM.attributes
+                0x000001cc       0x39 ./indM_get_Data_Array.o
+ .ARM.attributes
+                0x00000205       0x39 ./indM_normal_Close.o
+ .ARM.attributes
+                0x0000023e       0x39 ./indM_port_configuration.o
+ .ARM.attributes
+                0x00000277       0x39 ./indM_res_Closing.o
+ .ARM.attributes
+                0x000002b0       0x39 ./indM_res_Init.o
+ .ARM.attributes
+                0x000002e9       0x39 ./indM_safe_Close.o
+ .ARM.attributes
+                0x00000322       0x39 ./indM_set_Time_Reference.o
+ .ARM.attributes
+                0x0000035b       0x39 ./indM_setting.o
+ .ARM.attributes
+                0x00000394       0x39 ./indM_uART_routine.o
+ .ARM.attributes
+                0x000003cd       0x39 ./least_square.o
+ .ARM.attributes
+                0x00000406       0x39 ./main.o
+ .ARM.attributes
+                0x0000043f       0x39 ./startup_tm4c_gnu.o
+ .ARM.attributes
+                0x00000478       0x39 ./uartstdio.o
+ .ARM.attributes
+                0x000004b1       0x39 ./src/sc_timer_service.o
+ .ARM.attributes
+                0x000004ea       0x39 ./src-gen/indM.o
+ .ARM.attributes
+                0x00000523       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000557       0x3b C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+ .ARM.attributes
+                0x00000592       0x3b C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+ .ARM.attributes
+                0x000005cd       0x3b C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .ARM.attributes
+                0x00000608       0x3b C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+ .ARM.attributes
+                0x00000643       0x3b C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+ .ARM.attributes
+                0x0000067e       0x3b C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+ .ARM.attributes
+                0x000006b9       0x3b C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+ .ARM.attributes
+                0x000006f4       0x3b C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+ .ARM.attributes
+                0x0000072f       0x3b C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+ .ARM.attributes
+                0x0000076a       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000079e       0x34 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .ARM.attributes
+                0x000007d2       0x22 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+
+.comment        0x00000000       0xee
+ .comment       0x00000000       0x7e ./Control_Res.o
+                                 0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f ./Local_Average.o
+ .comment       0x0000007e       0x7f ./bsp.o
+ .comment       0x0000007e       0x7f ./indM_control_and_RCalculation.o
+ .comment       0x0000007e       0x7f ./indM_data_Processing.o
+ .comment       0x0000007e       0x7f ./indM_get_Data.o
+ .comment       0x0000007e       0x7f ./indM_get_Data_Array.o
+ .comment       0x0000007e       0x7f ./indM_normal_Close.o
+ .comment       0x0000007e       0x7f ./indM_port_configuration.o
+ .comment       0x0000007e       0x7f ./indM_res_Closing.o
+ .comment       0x0000007e       0x7f ./indM_res_Init.o
+ .comment       0x0000007e       0x7f ./indM_safe_Close.o
+ .comment       0x0000007e       0x7f ./indM_set_Time_Reference.o
+ .comment       0x0000007e       0x7f ./indM_setting.o
+ .comment       0x0000007e       0x7f ./indM_uART_routine.o
+ .comment       0x0000007e       0x7f ./least_square.o
+ .comment       0x0000007e       0x7f ./main.o
+ .comment       0x0000007e       0x7f ./startup_tm4c_gnu.o
+ .comment       0x0000007e       0x7f ./uartstdio.o
+ .comment       0x0000007e       0x7f ./src/sc_timer_service.o
+ .comment       0x0000007e       0x7f ./src-gen/indM.o
+ .comment       0x0000007e       0x70 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(fpu.o)
+                                 0x71 (size before relaxing)
+ .comment       0x000000ee       0x71 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(gpio.o)
+ .comment       0x000000ee       0x71 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(interrupt.o)
+ .comment       0x000000ee       0x71 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(mpu.o)
+ .comment       0x000000ee       0x71 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(ssi.o)
+ .comment       0x000000ee       0x71 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(sysctl.o)
+ .comment       0x000000ee       0x71 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(systick.o)
+ .comment       0x000000ee       0x71 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(uart.o)
+ .comment       0x000000ee       0x71 C:/Users/Marco/Desktop/EjemploTivaC2/tiva/TivaWare_C_Series-2.1.4.178/driverlib/gcc\libdriver.a(cpu.o)
+
+.debug_info     0x00000000    0x11ebb
+ .debug_info    0x00000000      0x9a5 ./Control_Res.o
+ .debug_info    0x000009a5      0x9b8 ./Local_Average.o
+ .debug_info    0x0000135d      0xc4b ./bsp.o
+ .debug_info    0x00001fa8      0xef1 ./indM_control_and_RCalculation.o
+ .debug_info    0x00002e99      0xf86 ./indM_data_Processing.o
+ .debug_info    0x00003e1f      0xce4 ./indM_get_Data.o
+ .debug_info    0x00004b03      0xd36 ./indM_get_Data_Array.o
+ .debug_info    0x00005839      0xd43 ./indM_normal_Close.o
+ .debug_info    0x0000657c     0x1a12 ./indM_port_configuration.o
+ .debug_info    0x00007f8e      0xdad ./indM_res_Closing.o
+ .debug_info    0x00008d3b      0xe49 ./indM_res_Init.o
+ .debug_info    0x00009b84      0xd22 ./indM_safe_Close.o
+ .debug_info    0x0000a8a6      0xcfd ./indM_set_Time_Reference.o
+ .debug_info    0x0000b5a3      0xdf1 ./indM_setting.o
+ .debug_info    0x0000c394      0xd27 ./indM_uART_routine.o
+ .debug_info    0x0000d0bb      0xa1b ./least_square.o
+ .debug_info    0x0000dad6     0x12b1 ./main.o
+ .debug_info    0x0000ed87      0x1ab ./startup_tm4c_gnu.o
+ .debug_info    0x0000ef32      0x390 ./uartstdio.o
+ .debug_info    0x0000f2c2      0xb5c ./src/sc_timer_service.o
+ .debug_info    0x0000fe1e     0x209d ./src-gen/indM.o
+
+.debug_abbrev   0x00000000     0x29bd
+ .debug_abbrev  0x00000000      0x1df ./Control_Res.o
+ .debug_abbrev  0x000001df      0x20b ./Local_Average.o
+ .debug_abbrev  0x000003ea      0x250 ./bsp.o
+ .debug_abbrev  0x0000063a      0x221 ./indM_control_and_RCalculation.o
+ .debug_abbrev  0x0000085b      0x272 ./indM_data_Processing.o
+ .debug_abbrev  0x00000acd      0x1ff ./indM_get_Data.o
+ .debug_abbrev  0x00000ccc      0x228 ./indM_get_Data_Array.o
+ .debug_abbrev  0x00000ef4      0x210 ./indM_normal_Close.o
+ .debug_abbrev  0x00001104      0x22a ./indM_port_configuration.o
+ .debug_abbrev  0x0000132e      0x217 ./indM_res_Closing.o
+ .debug_abbrev  0x00001545      0x22a ./indM_res_Init.o
+ .debug_abbrev  0x0000176f      0x201 ./indM_safe_Close.o
+ .debug_abbrev  0x00001970      0x1fd ./indM_set_Time_Reference.o
+ .debug_abbrev  0x00001b6d      0x219 ./indM_setting.o
+ .debug_abbrev  0x00001d86      0x20c ./indM_uART_routine.o
+ .debug_abbrev  0x00001f92      0x208 ./least_square.o
+ .debug_abbrev  0x0000219a      0x275 ./main.o
+ .debug_abbrev  0x0000240f       0xde ./startup_tm4c_gnu.o
+ .debug_abbrev  0x000024ed      0x142 ./uartstdio.o
+ .debug_abbrev  0x0000262f      0x1f6 ./src/sc_timer_service.o
+ .debug_abbrev  0x00002825      0x198 ./src-gen/indM.o
+
+.debug_aranges  0x00000000      0x818
+ .debug_aranges
+                0x00000000       0x20 ./Control_Res.o
+ .debug_aranges
+                0x00000020       0x20 ./Local_Average.o
+ .debug_aranges
+                0x00000040       0x30 ./bsp.o
+ .debug_aranges
+                0x00000070       0x20 ./indM_control_and_RCalculation.o
+ .debug_aranges
+                0x00000090       0x20 ./indM_data_Processing.o
+ .debug_aranges
+                0x000000b0       0x20 ./indM_get_Data.o
+ .debug_aranges
+                0x000000d0       0x20 ./indM_get_Data_Array.o
+ .debug_aranges
+                0x000000f0       0x20 ./indM_normal_Close.o
+ .debug_aranges
+                0x00000110       0x20 ./indM_port_configuration.o
+ .debug_aranges
+                0x00000130       0x20 ./indM_res_Closing.o
+ .debug_aranges
+                0x00000150       0x20 ./indM_res_Init.o
+ .debug_aranges
+                0x00000170       0x20 ./indM_safe_Close.o
+ .debug_aranges
+                0x00000190       0x20 ./indM_set_Time_Reference.o
+ .debug_aranges
+                0x000001b0       0x20 ./indM_setting.o
+ .debug_aranges
+                0x000001d0       0x20 ./indM_uART_routine.o
+ .debug_aranges
+                0x000001f0       0x20 ./least_square.o
+ .debug_aranges
+                0x00000210       0x50 ./main.o
+ .debug_aranges
+                0x00000260       0x50 ./startup_tm4c_gnu.o
+ .debug_aranges
+                0x000002b0       0x48 ./uartstdio.o
+ .debug_aranges
+                0x000002f8       0x40 ./src/sc_timer_service.o
+ .debug_aranges
+                0x00000338      0x4e0 ./src-gen/indM.o
+
+.debug_ranges   0x00000000      0x740
+ .debug_ranges  0x00000000       0x10 ./Control_Res.o
+ .debug_ranges  0x00000010       0x28 ./Local_Average.o
+ .debug_ranges  0x00000038       0x20 ./bsp.o
+ .debug_ranges  0x00000058       0x10 ./indM_control_and_RCalculation.o
+ .debug_ranges  0x00000068       0x28 ./indM_data_Processing.o
+ .debug_ranges  0x00000090       0x10 ./indM_get_Data.o
+ .debug_ranges  0x000000a0       0x10 ./indM_get_Data_Array.o
+ .debug_ranges  0x000000b0       0x10 ./indM_normal_Close.o
+ .debug_ranges  0x000000c0       0x10 ./indM_port_configuration.o
+ .debug_ranges  0x000000d0       0x28 ./indM_res_Closing.o
+ .debug_ranges  0x000000f8       0x10 ./indM_res_Init.o
+ .debug_ranges  0x00000108       0x10 ./indM_safe_Close.o
+ .debug_ranges  0x00000118       0x10 ./indM_set_Time_Reference.o
+ .debug_ranges  0x00000128       0x10 ./indM_setting.o
+ .debug_ranges  0x00000138       0x10 ./indM_uART_routine.o
+ .debug_ranges  0x00000148       0x10 ./least_square.o
+ .debug_ranges  0x00000158       0x40 ./main.o
+ .debug_ranges  0x00000198       0x40 ./startup_tm4c_gnu.o
+ .debug_ranges  0x000001d8       0x38 ./uartstdio.o
+ .debug_ranges  0x00000210       0x60 ./src/sc_timer_service.o
+ .debug_ranges  0x00000270      0x4d0 ./src-gen/indM.o
+
+.debug_line     0x00000000     0x477a
+ .debug_line    0x00000000      0x264 ./Control_Res.o
+ .debug_line    0x00000264      0x275 ./Local_Average.o
+ .debug_line    0x000004d9      0x2a7 ./bsp.o
+ .debug_line    0x00000780      0x339 ./indM_control_and_RCalculation.o
+ .debug_line    0x00000ab9      0x34f ./indM_data_Processing.o
+ .debug_line    0x00000e08      0x2f4 ./indM_get_Data.o
+ .debug_line    0x000010fc      0x304 ./indM_get_Data_Array.o
+ .debug_line    0x00001400      0x2fa ./indM_normal_Close.o
+ .debug_line    0x000016fa      0x364 ./indM_port_configuration.o
+ .debug_line    0x00001a5e      0x303 ./indM_res_Closing.o
+ .debug_line    0x00001d61      0x314 ./indM_res_Init.o
+ .debug_line    0x00002075      0x2fa ./indM_safe_Close.o
+ .debug_line    0x0000236f      0x2fd ./indM_set_Time_Reference.o
+ .debug_line    0x0000266c      0x33b ./indM_setting.o
+ .debug_line    0x000029a7      0x315 ./indM_uART_routine.o
+ .debug_line    0x00002cbc      0x278 ./least_square.o
+ .debug_line    0x00002f34      0x378 ./main.o
+ .debug_line    0x000032ac       0xc8 ./startup_tm4c_gnu.o
+ .debug_line    0x00003374      0x32d ./uartstdio.o
+ .debug_line    0x000036a1      0x2b0 ./src/sc_timer_service.o
+ .debug_line    0x00003951      0xe29 ./src-gen/indM.o
+
+.debug_str      0x00000000     0x3698
+ .debug_str     0x00000000      0x5bd ./Control_Res.o
+                                0x62a (size before relaxing)
+ .debug_str     0x000005bd       0x4f ./Local_Average.o
+                                0x665 (size before relaxing)
+ .debug_str     0x0000060c       0xff ./bsp.o
+                                0x72d (size before relaxing)
+ .debug_str     0x0000070b      0x80e ./indM_control_and_RCalculation.o
+                                0xea7 (size before relaxing)
+ .debug_str     0x00000f19       0x9f ./indM_data_Processing.o
+                                0xe81 (size before relaxing)
+ .debug_str     0x00000fb8       0x21 ./indM_get_Data.o
+                                0xdca (size before relaxing)
+ .debug_str     0x00000fd9       0x3f ./indM_get_Data_Array.o
+                                0xe11 (size before relaxing)
+ .debug_str     0x00001018       0x37 ./indM_normal_Close.o
+                                0xdfb (size before relaxing)
+ .debug_str     0x0000104f      0x627 ./indM_port_configuration.o
+                               0x13f8 (size before relaxing)
+ .debug_str     0x00001676       0x31 ./indM_res_Closing.o
+                                0xe37 (size before relaxing)
+ .debug_str     0x000016a7       0x21 ./indM_res_Init.o
+                                0xe50 (size before relaxing)
+ .debug_str     0x000016c8       0x25 ./indM_safe_Close.o
+                                0xe05 (size before relaxing)
+ .debug_str     0x000016ed       0x35 ./indM_set_Time_Reference.o
+                                0xded (size before relaxing)
+ .debug_str     0x00001722       0x5e ./indM_setting.o
+                                0xe3b (size before relaxing)
+ .debug_str     0x00001780       0x31 ./indM_uART_routine.o
+                                0xe06 (size before relaxing)
+ .debug_str     0x000017b1       0x27 ./least_square.o
+                                0x648 (size before relaxing)
+ .debug_str     0x000017d8      0x119 ./main.o
+                                0xfad (size before relaxing)
+ .debug_str     0x000018f1      0x118 ./startup_tm4c_gnu.o
+                                0x239 (size before relaxing)
+ .debug_str     0x00001a09      0x1d8 ./uartstdio.o
+                                0x377 (size before relaxing)
+ .debug_str     0x00001be1       0x8f ./src/sc_timer_service.o
+                                0x704 (size before relaxing)
+ .debug_str     0x00001c70     0x1a28 ./src-gen/indM.o
+                               0x23aa (size before relaxing)
+
+.debug_frame    0x00000000     0x12d4
+ .debug_frame   0x00000000       0x20 ./Control_Res.o
+ .debug_frame   0x00000020       0x34 ./Local_Average.o
+ .debug_frame   0x00000054       0x40 ./bsp.o
+ .debug_frame   0x00000094       0x2c ./indM_control_and_RCalculation.o
+ .debug_frame   0x000000c0       0x34 ./indM_data_Processing.o
+ .debug_frame   0x000000f4       0x2c ./indM_get_Data.o
+ .debug_frame   0x00000120       0x30 ./indM_get_Data_Array.o
+ .debug_frame   0x00000150       0x28 ./indM_normal_Close.o
+ .debug_frame   0x00000178       0x3c ./indM_port_configuration.o
+ .debug_frame   0x000001b4       0x28 ./indM_res_Closing.o
+ .debug_frame   0x000001dc       0x2c ./indM_res_Init.o
+ .debug_frame   0x00000208       0x2c ./indM_safe_Close.o
+ .debug_frame   0x00000234       0x28 ./indM_set_Time_Reference.o
+ .debug_frame   0x0000025c       0x30 ./indM_setting.o
+ .debug_frame   0x0000028c       0x28 ./indM_uART_routine.o
+ .debug_frame   0x000002b4       0x44 ./least_square.o
+ .debug_frame   0x000002f8       0xbc ./main.o
+ .debug_frame   0x000003b4       0x88 ./startup_tm4c_gnu.o
+ .debug_frame   0x0000043c       0xdc ./uartstdio.o
+ .debug_frame   0x00000518       0xa4 ./src/sc_timer_service.o
+ .debug_frame   0x000005bc      0xcd8 ./src-gen/indM.o
+ .debug_frame   0x00001294       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-errno.o)
+ .debug_frame   0x000012b4       0x20 c:/ti/ccsv8/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+
+.debug_loc      0x00000000     0x1d4d
+ .debug_loc     0x00000000       0x46 ./Local_Average.o
+ .debug_loc     0x00000046       0x26 ./bsp.o
+ .debug_loc     0x0000006c       0x8d ./indM_control_and_RCalculation.o
+ .debug_loc     0x000000f9       0xbe ./indM_data_Processing.o
+ .debug_loc     0x000001b7       0x13 ./indM_get_Data.o
+ .debug_loc     0x000001ca       0x26 ./indM_get_Data_Array.o
+ .debug_loc     0x000001f0       0x39 ./indM_normal_Close.o
+ .debug_loc     0x00000229       0x31 ./indM_port_configuration.o
+ .debug_loc     0x0000025a       0x62 ./indM_res_Closing.o
+ .debug_loc     0x000002bc       0x6a ./indM_res_Init.o
+ .debug_loc     0x00000326       0x13 ./indM_safe_Close.o
+ .debug_loc     0x00000339       0x26 ./indM_set_Time_Reference.o
+ .debug_loc     0x0000035f       0x4c ./indM_setting.o
+ .debug_loc     0x000003ab       0x13 ./indM_uART_routine.o
+ .debug_loc     0x000003be       0x6f ./least_square.o
+ .debug_loc     0x0000042d       0xfd ./main.o
+ .debug_loc     0x0000052a       0x47 ./startup_tm4c_gnu.o
+ .debug_loc     0x00000571      0x311 ./uartstdio.o
+ .debug_loc     0x00000882      0x150 ./src/sc_timer_service.o
+ .debug_loc     0x000009d2     0x137b ./src-gen/indM.o

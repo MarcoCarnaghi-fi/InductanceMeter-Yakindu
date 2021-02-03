@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="end_time" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="end_time"/>
+			<item value="get"/>
+			<item value="UARTStdioConfig"/>
+			<item value="PA"/>
+			<item value="putchar("/>
+			<item value="putchar"/>
+			<item value="vsnprint"/>
+			<item value="snprint"/>
+			<item value="PWM_GEN_0"/>
+			<item value="PWM_OUT_"/>
+			<item value="PD0"/>
+			<item value="lcd1602_sendnibble"/>
+			<item value="lcd1602_senddata"/>
+			<item value="PF1"/>
+			<item value="padconfig"/>
+		</list>
+		<list key="replacehistory">
+			<item value="PWM_GEN_3"/>
+			<item value="lcd1602_senddata"/>
+			<item value="GPIOF"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="426" key="DIALOG_X_ORIGIN"/>
+		<item value="326" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

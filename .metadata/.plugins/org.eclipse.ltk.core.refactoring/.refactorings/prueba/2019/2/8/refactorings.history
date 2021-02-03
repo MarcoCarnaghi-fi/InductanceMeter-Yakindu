@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;prueba/Local_Averange.c&apos; to &apos;Local_Average.c&apos;" description="Rename resource &apos;Local_Averange.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Local_Averange.c" name="Local_Average.c" stamp="1550955477019" updateReferences="true"/>
+</session>

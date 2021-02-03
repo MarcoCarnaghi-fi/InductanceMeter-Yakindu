@@ -1,0 +1,95 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+LDS_SRCS += \
+../tm4c123gh6pm.lds 
+
+C_SRCS += \
+../Control_Res.c \
+../Gc.c \
+../LPF_single_pole.c \
+../Local_Average.c \
+../Port_Configuration.c \
+../Res_Med.c \
+../Time_Gain_set.c \
+../bsp.c \
+../least_square.c \
+../main.c \
+../startup_tm4c_gnu.c \
+C:/Users/Carnaghi/Desktop/Ejemplo\ TivaC/tiva/TivaWare_C_Series-2.1.4.178/utils/uartstdio.c 
+
+C_DEPS += \
+./Control_Res.d \
+./Gc.d \
+./LPF_single_pole.d \
+./Local_Average.d \
+./Port_Configuration.d \
+./Res_Med.d \
+./Time_Gain_set.d \
+./bsp.d \
+./least_square.d \
+./main.d \
+./startup_tm4c_gnu.d \
+./uartstdio.d 
+
+OBJS += \
+./Control_Res.o \
+./Gc.o \
+./LPF_single_pole.o \
+./Local_Average.o \
+./Port_Configuration.o \
+./Res_Med.o \
+./Time_Gain_set.o \
+./bsp.o \
+./least_square.o \
+./main.o \
+./startup_tm4c_gnu.o \
+./uartstdio.o 
+
+OBJS__QUOTED += \
+"Control_Res.o" \
+"Gc.o" \
+"LPF_single_pole.o" \
+"Local_Average.o" \
+"Port_Configuration.o" \
+"Res_Med.o" \
+"Time_Gain_set.o" \
+"bsp.o" \
+"least_square.o" \
+"main.o" \
+"startup_tm4c_gnu.o" \
+"uartstdio.o" 
+
+C_DEPS__QUOTED += \
+"Control_Res.d" \
+"Gc.d" \
+"LPF_single_pole.d" \
+"Local_Average.d" \
+"Port_Configuration.d" \
+"Res_Med.d" \
+"Time_Gain_set.d" \
+"bsp.d" \
+"least_square.d" \
+"main.d" \
+"startup_tm4c_gnu.d" \
+"uartstdio.d" 
+
+C_SRCS__QUOTED += \
+"../Control_Res.c" \
+"../Gc.c" \
+"../LPF_single_pole.c" \
+"../Local_Average.c" \
+"../Port_Configuration.c" \
+"../Res_Med.c" \
+"../Time_Gain_set.c" \
+"../bsp.c" \
+"../least_square.c" \
+"../main.c" \
+"../startup_tm4c_gnu.c" \
+"C:/Users/Carnaghi/Desktop/Ejemplo TivaC/tiva/TivaWare_C_Series-2.1.4.178/utils/uartstdio.c" 
+
+
