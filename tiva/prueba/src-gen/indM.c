@@ -215,6 +215,8 @@ void indM_init(IndM* handle)
 	handle->iface.sp_v_gate = 0;
 	handle->iface.sp_data = 0;
 	handle->iface.sp_R = 0;
+	handle->iface.sp_bf_i_Y = 0;
+	handle->iface.sp_bf_Y = 0;
 	handle->iface.runs = 0;
 	handle->iface.f_res_configured = bool_false;
 	handle->iface.n_i = 0;
@@ -585,6 +587,24 @@ void indM_set_sp_R(IndM* handle, sc_real* value)
 {
 	handle->iface.sp_R = value;
 }
+// Added
+sc_string indM_get_sp_bf_Y(const IndM* handle)
+{
+    return handle->iface.sp_bf_Y;
+}
+void indM_set_sp_bf_Y(IndM* handle, sc_string value)
+{
+    handle->iface.sp_bf_Y = value;
+}
+sc_string indM_get_sp_bf_i_Y(const IndM* handle)
+{
+    return handle->iface.sp_bf_i_Y;
+}
+void indM_set_sp_bf_i_Y(IndM* handle, sc_string value)
+{
+    handle->iface.sp_bf_i_Y = value;
+}
+//End of added
 sc_integer indM_get_runs(const IndM* handle)
 {
 	return handle->iface.runs;
@@ -775,6 +795,7 @@ static void enact_R_Main_s_Ind_Measurement_R_Main_Measurement_s_Data_Processing(
 {
 	/* Entry action for state 's_Data_Processing'. */
 	handle->iface.Full_buffer = bool_false;
+	//handle->iface.Full_buffer = indM_data_Processing(handle, handle->iface.sp_bf_Y, handle->iface.sp_bf_i_Y);
 	handle->iface.Full_buffer = indM_data_Processing(handle);
 }
 
@@ -1745,7 +1766,8 @@ static sc_boolean R_Main_s_Ind_Measurement_R_Main_Measurement_s_Wait_User_react(
 		} 
 	} if ((did_transition) == (bool_false))
 	{ 
-		indM_uART_routine(handle);
+		//indM_uART_routine(handle, handle->iface.sp_bf_Y, handle->iface.sp_bf_i_Y);
+	    indM_uART_routine(handle);
 	} return did_transition;
 }
 
@@ -1768,7 +1790,8 @@ static sc_boolean R_Main_s_Ind_Measurement_R_Main_Measurement_s_Wait_New_data_re
 		} 
 	} if ((did_transition) == (bool_false))
 	{ 
-		indM_uART_routine(handle);
+		//indM_uART_routine(handle, handle->iface.sp_bf_Y, handle->iface.sp_bf_i_Y);
+	    indM_uART_routine(handle);
 	} return did_transition;
 }
 

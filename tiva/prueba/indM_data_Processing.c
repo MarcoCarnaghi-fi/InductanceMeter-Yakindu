@@ -38,8 +38,8 @@
         uint32_t        current     [ARRAY_LENGTH]      ;
         uint32_t        send_index                      ;
         uint32_t        array_index                 = 0u;
-        static char     bufsend  [ARRAY_LENGTH*2]           ;
-        static char     bufsend_i[ARRAY_LENGTH*2]           ;
+        char extern     bufsend  [ARRAY_LENGTH*2]           ;
+        char extern     bufsend_i[ARRAY_LENGTH*2]           ;
 
 //        L_i_pair extern    L_i                          ;
 
@@ -61,7 +61,8 @@
         float   L_i_Ind[150];
         float   L_i_Current[150];
 
- bool indM_data_Processing(const IndM* handle)
+// bool indM_data_Processing(const IndM* handle,const char *sp_bf,const char *sp_bf_i)
+bool indM_data_Processing(const IndM* handle)
 {
 
 	
@@ -107,11 +108,13 @@
 
 		//float slopes[intervals];
 
+		//Problemas de división por cero
+/*
 		for (int j = 0 ; j < (intervals) ; j++){
 			slopes[j] = least_square( &I_R[sp_aux], neighbour, T);
 			sp_aux += SLIDING_WINDOW_STEP;
 		}//end for
-
+*/
 	//Voltage correction
 	for (int j = 0 ; j < NRO_SAMPLES ; j++){
 		V_L[j] = V_L[j] - ( I_R[j] * Resistance );
@@ -133,7 +136,12 @@
 	//--------------------------
 	for (int j = 0 ; j < intervals ; j++){
 		//L_i.Ind[j] = (float) ( V_i[j] / slopes[j] );
+	    if (slopes[j] > 0.0) {
 		L_i_Ind[j] = (float) ( V_i[j] / slopes[j] );
+	    }
+	    else {
+		L_i_Ind[j] = (float) ( 0.0  ) ;
+	    }
 	}//end for	
 	
 	
@@ -150,6 +158,11 @@
 	
 	// UART BUFFERING
 	//---------------
+
+    //pointer
+    char*   sp_bf       = indM_get_sp_bf_Y( &ls );
+    char*   sp_bf_i     = indM_get_sp_bf_i_Y( &ls );
+
 	send_index = 0u;
 
 	for (array_index = 0; array_index < ARRAY_LENGTH; ++array_index) {
@@ -160,11 +173,16 @@
 		bufsend_i[send_index+1] = (char )(0x00FF & (current[array_index]>>8));
 		*/
 		//Debugging porpouse
-        bufsend[send_index] = (char )(0x00FF & 10u);
-        bufsend[send_index+1] = (char )(0x00FF & 11u);
-        bufsend_i[send_index] = (char )(0x00FF & 12u);
-        bufsend_i[send_index+1] = (char )(0x00FF & 13u);
+
+		*(sp_bf 	+ send_index	) = (char)	(0x00FF & 10u);
+		*(sp_bf 	+ send_index + 1) = (char)	(0x00FF & 11u);
+		*(sp_bf_i 	+ send_index	) = (char)	(0x00FF & 12u);
+		*(sp_bf_i 	+ send_index + 1) = (char)	(0x00FF & 13u);
+
 		//---------
+
+
+
 		send_index += 2;
 	}
 	

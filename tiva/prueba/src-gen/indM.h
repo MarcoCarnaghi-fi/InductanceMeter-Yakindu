@@ -126,6 +126,8 @@ struct IndMIface
 	sc_real* sp_v_gate;
 	sc_integer* sp_data;
 	sc_real* sp_R;
+	sc_string sp_bf_Y;
+	sc_string sp_bf_i_Y;
 	sc_integer runs;
 	sc_boolean f_res_configured;
 	sc_integer n_i;
@@ -256,6 +258,21 @@ extern sc_real* indM_get_sp_R(const IndM* handle);
 /*! Sets the value of the variable 'sp_R' that is defined in the default interface scope. */ 
 //extern void indM_set_sp_R(IndM* handle, sc_real value);
 extern void indM_set_sp_R(IndM* handle, sc_real* value);
+
+/*! Gets the value of the variable 'sp_bf_Y' that is defined in the default interface scope. */
+//extern sc_real indM_get_sp_R(const IndM* handle);
+extern sc_string indM_get_sp_bf_Y(const IndM* handle);
+/*! Sets the value of the variable 'sp_bf_Y' that is defined in the default interface scope. */
+//extern void indM_set_sp_R(IndM* handle, sc_real value);
+extern void indM_set_sp_bf_Y(IndM* handle, sc_string value);
+
+/*! Gets the value of the variable 'sp_bf_i_Y' that is defined in the default interface scope. */
+//extern sc_real indM_get_sp_R(const IndM* handle);
+extern sc_string indM_get_sp_bf_i_Y(const IndM* handle);
+/*! Sets the value of the variable 'sp_bf_i_Y' that is defined in the default interface scope. */
+//extern void indM_set_sp_R(IndM* handle, sc_real value);
+extern void indM_set_sp_bf_i_Y(IndM* handle, sc_string value);
+
 
 /*! Gets the value of the variable 'runs' that is defined in the default interface scope. */ 
 extern sc_integer indM_get_runs(const IndM* handle);

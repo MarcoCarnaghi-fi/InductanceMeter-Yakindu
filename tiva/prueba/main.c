@@ -90,8 +90,10 @@
 		int 		NRO_SAMPLES		=	0	;
 		
 	//UART
-		static char bufsend[ARRAY_LENGTH*2]	 =	{}		; //GLOBAL
-		static char bufsend_i[ARRAY_LENGTH*2]=	{}		; //GLOBAL
+		char bufsend[ARRAY_LENGTH*2]	    =	{}		; //GLOBAL
+		char bufsend_i[ARRAY_LENGTH*2]   =	{}		; //GLOBAL
+        uint32_t        s_index                 =   0u      ;
+        uint32_t        a_index                 =   0u      ;
 		
 	//MAIN MEASUREMENT
 		uint32_t  samp_L[MAX_SAMPLES] ;
@@ -139,6 +141,18 @@ void main (void)
 	//Systick Start
 	Systick_Configuration(10);
 	
+	//UART buffer init
+      for (a_index = 0; a_index < ARRAY_LENGTH; ++a_index) {
+
+            bufsend[s_index] = (char )(0x00FF & 0xBE);
+            bufsend[s_index+1] = (char )(0x00FF & 0xEF);
+            bufsend_i[s_index] = (char )(0x00FF & 0xBE);
+            bufsend_i[s_index+1] = (char )(0x00FF & 0xEF);
+
+            s_index += 2;
+        }
+
+
 	while (1) 
 		{
 
@@ -146,6 +160,8 @@ void main (void)
 			indM_set_sp_v_gate	(&ls	, &v_gate[0]	);
 			indM_set_sp_data	(&ls	, &data[0]		);
 			indM_set_sp_R		(&ls	, &Resistance	);
+			indM_set_sp_bf_Y    (&ls    , &bufsend[0]   );
+			indM_set_sp_bf_i_Y  (&ls    , &bufsend_i[0] );
 
 			indM_run_cycle(&ls);	//StateMachine run
 			//Sleep(10);		// Seteo el ciclo RTC en 10 ms.

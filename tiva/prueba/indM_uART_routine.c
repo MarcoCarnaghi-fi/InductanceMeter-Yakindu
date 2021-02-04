@@ -15,27 +15,32 @@
          IndM    extern  ls                                             ;
          char            command                            =   0       ; //LOCAL
          uint32_t        send_index                         =   0u      ; //LOCAL
-         static char     bufsend[ARRAY_LENGTH*2]                        ; //GLOBAL
-         static char     bufsend_i[ARRAY_LENGTH*2]                      ; //GLOBAL
+         char extern     bufsend[ARRAY_LENGTH*2]                        ; //GLOBAL
+         char extern     bufsend_i[ARRAY_LENGTH*2]                      ; //GLOBAL
 
+
+
+//void indM_uART_routine(const IndM* handle,const char *sp_bf,const char *sp_bf_i)
 void indM_uART_routine(const IndM* handle)
  {
 	
 	//						ROUTINE
 	//-------------------------------------------------------------------
-	
+    //pointer
+    char*  sp_bf    = indM_get_sp_bf_Y( &ls );
+    char*   sp_bf_i = indM_get_sp_bf_i_Y( &ls );
 	
 	if (UARTCharsAvail(UART0_BASE)) {
 	   command = UARTCharGet(UART0_BASE);
 	   if(command == 's') {
 		   send_index = 0u;
 		  while (send_index < 2*ARRAY_LENGTH) {
-			   UARTCharPut(UART0_BASE, bufsend[send_index]);
+			   UARTCharPut(UART0_BASE, *(sp_bf + send_index));
 			   send_index++;
 		   }
 		   send_index = 0u;
 		  while (send_index < 2*ARRAY_LENGTH) {
-			  UARTCharPut(UART0_BASE, bufsend_i[send_index]);
+			  UARTCharPut(UART0_BASE, *(sp_bf_i + send_index));
 			  send_index++;
 		  }
 		  UARTCharPut(UART0_BASE, 0xFF); //Sends FF to indicate end of data send

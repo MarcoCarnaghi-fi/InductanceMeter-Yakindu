@@ -17,6 +17,7 @@
 float   A11,A12,A22,B1,B2   ;
 float   t, I                ; // auxiliar variables that represent the value in the operation point
 float   det                 ; //array's det
+float   result              ;
 //int     j =0                ;
 
 float least_square (float *sp, uint32_t n, float delta_T){
@@ -50,7 +51,14 @@ float least_square (float *sp, uint32_t n, float delta_T){
 
     det =(float)( (A11 * A22) - (A12 * A12) );
 
-    return (float)(( (A11 * B2) - (A12 * B1) ) / ( det ) );
+    // Not tested modification
+    if (det < 0.00001){
+        result = 0.0;
+    }
+    else {
+        result = (float)(( (A11 * B2) - (A12 * B1) ) / ( det ) );
+    }
+    return result;
 }//end Least squares
 
 

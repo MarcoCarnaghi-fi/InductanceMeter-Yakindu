@@ -2,12 +2,18 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="end_time" key="selection"/>
+		<item value="indM_uA" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="indM_ua"/>
+			<item value="indM_data"/>
+			<item value="indM_uart"/>
+			<item value="indM_uART_routine"/>
+			<item value="indM_data_Processing"/>
+			<item value="uart"/>
 			<item value="end_time"/>
 			<item value="get"/>
 			<item value="UARTStdioConfig"/>
@@ -17,12 +23,6 @@
 			<item value="vsnprint"/>
 			<item value="snprint"/>
 			<item value="PWM_GEN_0"/>
-			<item value="PWM_OUT_"/>
-			<item value="PD0"/>
-			<item value="lcd1602_sendnibble"/>
-			<item value="lcd1602_senddata"/>
-			<item value="PF1"/>
-			<item value="padconfig"/>
 		</list>
 		<list key="replacehistory">
 			<item value="PWM_GEN_3"/>

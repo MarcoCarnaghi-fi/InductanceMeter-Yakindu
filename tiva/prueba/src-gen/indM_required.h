@@ -60,8 +60,9 @@ extern sc_boolean indM_safe_Close(const IndM* handle);
 
 extern sc_boolean indM_normal_Close(const IndM* handle, const sc_integer ni, const sc_integer nf);
 
+//extern sc_boolean indM_data_Processing(const IndM* handle,const sc_string sp_bf,const sc_string sp_bf_i);
 extern sc_boolean indM_data_Processing(const IndM* handle);
-
+//extern void indM_uART_routine(const IndM* handle, const sc_string sp_bf,const sc_string sp_bf_i);
 extern void indM_uART_routine(const IndM* handle);
 extern void indM_get_Data(const IndM* handle);
 extern void indM_get_Data_Array(const IndM* handle);

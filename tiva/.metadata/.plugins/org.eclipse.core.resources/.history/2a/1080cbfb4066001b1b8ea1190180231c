@@ -1,0 +1,186 @@
+//--------------------------------------------------------------------------
+//							indM_data_Processing
+//--------------------------------------------------------------------------
+
+//#include "src-gen/indM.h"
+//#include "src-gen/indM_required.h"
+//#include "src/sc_timer_service.h"
+#include "inc/bsp.h"
+//#include "main.c"
+
+
+
+    //                      CONSTANTES
+    //-------------------------------------------------------------------
+        float  extern   K_L ;
+        float  extern   K_R ;
+        float  extern   pi  ;
+        float  extern   T   ;
+
+
+    //                      VARIABLES
+    //-------------------------------------------------------------------
+        IndM    extern  ls                              ;
+        int      extern NRO_SAMPLES                     ;
+        uint32_t extern samp_L[MAX_SAMPLES]             ;
+        uint32_t extern samp_R[MAX_SAMPLES]             ;
+        int      extern Gain_L, Gain_R                  ;
+        int32_t  extern offset[2]                       ;
+        float    extern Resistance                      ;
+
+        float           V_L[MAX_SAMPLES]                ;
+        float           I_R[MAX_SAMPLES]                ;
+        //float             V_prom[MAX_SAMPLES]             ;
+        float           V_i[150]            =   {}      ;
+        float           slopes[150]         =   {}      ;
+
+        uint32_t        inductance  [ARRAY_LENGTH]      ;
+        uint32_t        current     [ARRAY_LENGTH]      ;
+        uint32_t        send_index                      ;
+        uint32_t        array_index                 = 0u;
+        char extern     bufsend  [ARRAY_LENGTH*2]           ;
+        char extern     bufsend_i[ARRAY_LENGTH*2]           ;
+
+//        L_i_pair extern    L_i                          ;
+
+//        int         j                       =   0       ;
+//       int         i                                   ;
+//        int         k                                   ;
+        uint32_t    sp_aux                  =   0U      ;
+
+/*
+        typedef struct
+         {
+             float  Ind[150]                 ;
+             float  Current[150]             ;
+         } L_i_pair                          ;
+
+         L_i_pair        L_i                 ;
+*/
+
+        float   L_i_Ind[150];
+        float   L_i_Current[150];
+
+ bool indM_data_Processing(const IndM* handle,const char *sp_bf,const char *sp_bf_i)
+{
+
+	
+	//						ROUTINE
+	//-------------------------------------------------------------------
+	
+	
+	// Mapping
+	//--------
+	for (int j = 0; j < NRO_SAMPLES; j++){
+
+		V_L[j] = (float) (2)*	(K_L	/Gain_L	) * (samp_L[j] - offset[0]);
+		I_R[j] = (float) 		(K_R	/Gain_R	) * (samp_R[j] - offset[1]);
+
+	}//end for u32-->float
+	
+	
+	
+	// Extra processing
+	//-----------------
+	for (int j = 0 ; j<10 ; j++ ){
+		//this condition means the data is meaningless
+		if (I_R[j] > 1){
+			for (int k = j ; k<10; k++){
+				if ( (I_R[j] > 1) && (I_R[k] < 1) ){
+					I_R[j] = (float) (j * I_R[k])/k ;
+				}
+			}//end for
+		}//end if
+	}// end for
+
+	for (int j = 50 ; j<100 ; j++){
+		V_L[2*j-100] 	= V_L[j];
+		V_L[2*j-99] 	= V_L[j];
+	}
+	
+	
+	
+	//Least Squares
+	//-------------
+		//Calculate the number of intervals for local processing
+		int intervals = (int) ( floor( (NRO_SAMPLES-neighbour) / SLIDING_WINDOW_STEP ));
+
+		//float slopes[intervals];
+
+		//Problemas de división por cero
+
+		for (int j = 0 ; j < (intervals) ; j++){
+			slopes[j] = least_square( &I_R[sp_aux], neighbour, T);
+			sp_aux += SLIDING_WINDOW_STEP;
+		}//end for
+
+	//Voltage correction
+	for (int j = 0 ; j < NRO_SAMPLES ; j++){
+		V_L[j] = V_L[j] - ( I_R[j] * Resistance );
+	}//end for
+	
+	
+	
+	//Local Average
+	//-------------
+		// Calculate the averange current in each interval
+		//Local_Average( &(L_i.Current), &I_R, neighbour, intervals, SLIDING_WINDOW_STEP);
+	    Local_Average( &L_i_Current, &I_R, neighbour, intervals, SLIDING_WINDOW_STEP);
+		// Averaged value of tension
+		Local_Average( &V_i, &V_L, neighbour, intervals, SLIDING_WINDOW_STEP);
+
+		
+		
+	//Calculation of Inductance
+	//--------------------------
+	for (int j = 0 ; j < intervals ; j++){
+		//L_i.Ind[j] = (float) ( V_i[j] / slopes[j] );
+		L_i_Ind[j] = (float) ( V_i[j] / slopes[j] );
+	}//end for	
+	
+	
+	//Scale modification for communication with pc
+	//----------------------------------------------
+	for (int i = 0; i < ARRAY_LENGTH ; i++){
+		//inductance[i] 	= (uint32_t)((int) (L_i.Ind[i] * SCALE_FACTOR_L * SIGNIFICANT_FIGURES));
+		//current[i]		= (uint32_t)((int) (L_i.Current[i] * SCALE_FACTOR_I));
+        inductance[i]   = (uint32_t)((int) (L_i_Ind[i] * SCALE_FACTOR_L * SIGNIFICANT_FIGURES));
+        current[i]      = (uint32_t)((int) (L_i_Current[i] * SCALE_FACTOR_I));
+	}
+
+	
+	
+	// UART BUFFERING
+	//---------------
+	send_index = 1u;
+	send_index = *(sp_bf);
+
+	send_index = 0u;
+
+	for (array_index = 0; array_index < ARRAY_LENGTH; ++array_index) {
+		/*
+	    bufsend[send_index] = (char )(0x00FF & inductance[array_index]);
+		bufsend[send_index+1] = (char )(0x00FF & (inductance[array_index]>>8));
+		bufsend_i[send_index] = (char )(0x00FF & current[array_index]);
+		bufsend_i[send_index+1] = (char )(0x00FF & (current[array_index]>>8));
+		*/
+		//Debugging porpouse
+	    /*
+		*(sp_bf 	+ send_index	) = (char)	(0x00FF & 10u);
+		*(sp_bf 	+ send_index + 1) = (char)	(0x00FF & 11u);
+		*(sp_bf_i 	+ send_index	) = (char)	(0x00FF & 12u);
+		*(sp_bf_i 	+ send_index + 1) = (char)	(0x00FF & 13u);
+		*/
+		//---------
+
+
+
+		send_index += 2;
+	}
+	
+	
+	//Rise Full buffer flag
+	//indM_set_full_buffer(&ls, true);
+		return (bool) true;
+	
+ }	//end indM_data_Processing
